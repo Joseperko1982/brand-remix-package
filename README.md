@@ -63,10 +63,19 @@ Required:
 
 ### 3. Set Up Seed Images
 
-Copy seeds to your thumb directory:
+The canonical source for all brand seed images is:
+```
+/Users/joseph/Desktop/System Thinking Brand Assets /
+```
 
-```bash
-cp seeds/*.png "~/Desktop/Seedance collection/thought-to-piece/thumb/"
+Joe's multi-shot is at:
+```
+/Users/joseph/Desktop/System Thinking Brand Assets /System_Thinking_Joe_Multi_Shot.png
+```
+
+Working output directory:
+```
+/Users/joseph/Desktop/System Thinking Brand Assets /thumb/
 ```
 
 ### 4. Run the Skill

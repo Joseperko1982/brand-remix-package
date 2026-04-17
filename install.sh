@@ -30,13 +30,15 @@ else
 fi
 
 # Copy seed images
-THUMB_DIR="$HOME/Desktop/Seedance collection/thought-to-piece/thumb"
-if [ ! -d "$THUMB_DIR" ]; then
-    echo "WARNING: $THUMB_DIR not found"
+BRAND_ASSETS="$HOME/Desktop/System Thinking Brand Assets "
+if [ ! -d "$BRAND_ASSETS" ]; then
+    echo "WARNING: $BRAND_ASSETS not found"
     echo "  Copy seeds/ contents there manually"
 else
-    cp -f "$(dirname "$0")/seeds/"*.png "$THUMB_DIR/"
-    echo "Seeds installed to $THUMB_DIR"
+    mkdir -p "$BRAND_ASSETS/thumb"
+    cp -f "$(dirname "$0")/seeds/"*.png "$BRAND_ASSETS/"
+    cp -f "$(dirname "$0")/seeds/"*.png "$BRAND_ASSETS/thumb/" 2>/dev/null || true
+    echo "Seeds installed to $BRAND_ASSETS"
 fi
 
 echo "Install complete."

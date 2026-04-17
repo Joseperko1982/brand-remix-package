@@ -27,7 +27,8 @@ Before building prompts, check:
 - **`references/visual-dna-gallery.json`** — canonical color hexes, typography specs, composition rules, effects, mood keywords
 - **`references/nano-banana-prompts.json`** — existing prompt library (avoid exact repeats, find gaps)
 - **`thumb/`** — what's already in the gallery (ensure new outputs are genuinely new)
-- **Joe's multi-shot path:** `/Users/joseph/Desktop/Seedance collection/thought-to-piece/thumb/System_Thinking_Joe_Multi_Shot.png`
+- **Joe's multi-shot path:** `/Users/joseph/Desktop/System Thinking Brand Assets /System_Thinking_Joe_Multi_Shot.png` (primary subject reference — always required)
+- **Brand assets directory:** `/Users/joseph/Desktop/System Thinking Brand Assets /` — contains all canonical brand seed images
 
 ---
 
@@ -58,7 +59,9 @@ def upload_img(path):
     return resp.json()["data"]["url"]
 
 # Joe's multi-shot — ALWAYS upload first
-joe_url = upload_img("/Users/joseph/Desktop/Seedance collection/thought-to-piece/thumb/System_Thinking_Joe_Multi_Shot.png")
+BRAND_ASSETS="/Users/joseph/Desktop/System Thinking Brand Assets "
+JOE_PATH=f"{BRAND_ASSETS}System_Thinking_Joe_Multi_Shot.png"
+joe_url = upload_img(JOE_PATH)
 
 # Add 1-2 brand seeds for compositional reference (varied per run)
 # Good seeds: poster, quote card, banner, diagram — rotate each run
@@ -183,7 +186,7 @@ Poll all 4 simultaneously. Download each as `{name}.png` to `thumb/` directory.
 
 ```python
 from pathlib import Path
-output_dir = Path("/Users/joseph/Desktop/Seedance collection/thought-to-piece/thumb")
+output_dir = Path("/Users/joseph/Desktop/System Thinking Brand Assets /thumb")
 
 done = {k: False for k in task_ids}
 for attempt in range(60):
@@ -325,7 +328,7 @@ Copy frames to `/tmp/gif_frames/` with sequential naming:
 ```bash
 mkdir -p /tmp/gif_frames
 for i in 11 12 13 14 15 16 17 18 19 20; do
-    f=$(ls "/Users/joseph/Desktop/Seedance collection/thought-to-piece/thumb/v${i}_"*.png 2>/dev/null | head -1)
+    f=$(ls "/Users/joseph/Desktop/System Thinking Brand Assets /thumb/v${i}_"*.png 2>/dev/null | head -1)
     cp "$f" "/tmp/gif_frames/frame_$(printf '%02d' $((i - ${START:-10}))).png"
 done
 ls /tmp/gif_frames/
@@ -342,7 +345,7 @@ Frame duration: `1/1.3` fps (1.3s per frame). Use palettegen/paletteuse for qual
 ```bash
 mkdir -p /tmp/gif_frames
 # copy frames: frame_00.png, frame_01.png ... in narrative order
-BASE="/Users/joseph/Desktop/Seedance collection/thought-to-piece/thumb/{campaign_slug}"
+BASE="/Users/joseph/Desktop/System Thinking Brand Assets /thumb/{campaign_slug}"
 
 # Full resolution
 ffmpeg -y -framerate 1/1.3 -i /tmp/gif_frames/frame_%02d.png \
