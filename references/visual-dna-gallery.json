@@ -1,0 +1,158 @@
+{
+  "brand": "System Thinking — Joe Perkins",
+  "version": "1.0.0",
+  "color_palette": {
+    "primary": {
+      "yellow": {
+        "hex": ["#FDE910", "#F2E600", "#F2E926", "#FDF111", "#F7E21E", "#F2F230"],
+        "role": "Primary accent — high-visibility focal color",
+        "usage": "Headlines, graffiti text, UI accents, duotone highlights, banner elements"
+      },
+      "charcoal": {
+        "hex": ["#1A1A1B", "#1A1A1A", "#232326", "#333333", "#121113"],
+        "role": "Deep shadow / primary dark",
+        "usage": "Subject attire, text on yellow, deep background blocks, black-level shadows"
+      },
+      "grey": {
+        "hex": ["#939598", "#9B9B9B", "#A6A6AB", "#949599", "#9B94A1", "#989BA7", "#8C8C8C"],
+        "role": "Neutral mid-tone / background",
+        "usage": "Studio backgrounds, grey floor/blocks, secondary typography, number numerals"
+      }
+    },
+    "accents": {
+      "cool_slate": {"hex": ["#C5C9D1", "#919191", "#D1D1D1"], "role": "Cool highlights / scanner frames"},
+      "skin_tones": {"hex": ["#C4A495", "#C69C8A", "#D2A68D", "#8E7B74", "#7B5C4F", "#7B6358", "#4A362D"], "role": "Natural mid-tones, desaturated"},
+      "footwear_tan": {"hex": ["#D2C1A5"], "role": "Sneaker/accent color only"}
+    }
+  },
+  "typography": {
+    "headlines": {
+      "fonts": ["Inter", "Helvetica Neue", "Helvetica Compressed", "Anton", "Impact"],
+      "weight": "Bold / Extra Bold / Black",
+      "case": "ALL CAPS",
+      "kerning": "Tight (letter-spacing: -0.02em to -0.05em)",
+      "treatment": "Graffiti street-style for manifesto/posters; clean geometric for editorial"
+    },
+    "quotes_body": {
+      "fonts": ["Inter", "Helvetica", "Helvetica Now"],
+      "weight": "Bold / Medium",
+      "case": "Sentence case (quote cards); ALL CAPS (attribution)",
+      "kerning": "Standard to tight",
+      "treatment": "Duotone split over portrait; left-aligned; tight leading"
+    },
+    "branding_labels": {
+      "fonts": ["Roboto Mono", "Courier", "Monospace"],
+      "weight": "Regular",
+      "case": "UPPERCASE",
+      "kerning": "Standard",
+      "treatment": "Technical/data aesthetic — coordinates, dates, edition numbers"
+    },
+    "name_episode": {
+      "fonts": ["Inter", "Helvetica"],
+      "weight": "Medium / Bold",
+      "case": "ALL CAPS or Title Case",
+      "kerning": "Tight",
+      "treatment": "Small, grey — secondary hierarchy below main headline"
+    }
+  },
+  "composition": {
+    "layout_rules": {
+      "sandwich_layering": "Subject placed BETWEEN typography layers — text behind and/or in front of subject creating Z-axis depth and 3D pop-out effect",
+      "rule_of_thirds": "Subject eyes on upper horizontal third for portraits; centered for manifesto posters",
+      "symmetry": "Centered horizontal axis for hero/poster compositions; offset for layered editorial",
+      "framing": "Hard-edge rectangular masks/windows revealing duotone-processed subject; surveillance/ID scanner frame overlay on profile images",
+      "negative_space": "Heavy negative space with flat matte backgrounds — no distracting elements"
+    },
+    "photo_types": {
+      "poster": "Full-body or waist-up subject, centered, yellow/grey split background, headline overlaid in sandwich composition",
+      "quote_card": "Portrait duotone (yellow highlight + charcoal shadow), left-aligned bold quote text, flat grey background with fine grain",
+      "thumbnail": "Episode number (massive grey '01' etc.), yellow top field, grey floor, subject in lower 2/3, Rubik's cube icon bottom-right",
+      "banner": "Subject masked out and composited — 'FROM PARIS WITH LOVE' yellow type behind/around subject, industrial monospace labels",
+      "diagram": "Isometric staircase/step metaphor, yellow accent on step highlights, grey/white structure, heavy sans-serif headers in yellow blocks",
+      "profile": "Surveillance/ID scanner frame over eyes, dark textured background, yellow headers, right-aligned experience details"
+    }
+  },
+  "backgrounds": {
+    "studio_flat": "Solid #939598 grey — matte, no gradient, used for poster/quote cards",
+    "industrial_gradient": "Sharp horizontal split — yellow top field (#F2E600) meets grey floor (#A6A6AB) at image center — 'limbo' effect",
+    "textured_grey": "Dark charcoal with heavy asphalt/brushed-metal noise grain — for profile/dossier style",
+    "distressed_poster": "Fine film grain over flat grey — subtle radial vignette, paper-like tactility",
+    "geometric_shapes": "Large dark grey/black geometric polygons — diagonal composition for depth, flat matte finish"
+  },
+  "color_grading": {
+    "contrast": "High — yellow vs. charcoal creates maximum pop; grey mid-tones prevent harshness",
+    "saturation": "Yellow pushed to maximum saturation; skin tones heavily desaturated to prevent competing with yellow; grey backgrounds low-chroma",
+    "finish": "Matte — no glossy reflections, no gradients, no drop shadows on flat elements",
+    "skin_tones": "Desaturated, cool-leaning — prevents competition with high-saturation yellow",
+    "duotone_mapping": "Highlights mapped to #F2E331/#FDE910 yellow; shadows mapped to #1A1A1B charcoal; mid-tones to grey",
+    "black_levels": "Lifted/charcoal rather than pure black — matte effect on dark clothing"
+  },
+  "effects": {
+    "halftone_stippling": "None observed",
+    "distress_filters": "Fine film grain / noise overlay on grey backgrounds — subtle, tactile quality",
+    "gaussian_blur": "Background elements (outside mask) slightly blurred — portrait inside mask sharp",
+    "sharpening": "Applied to foreground text and duotone-masked subject",
+    "focus_rectangle": "Hard-edge rectangular clipping mask reveals high-contrast duotone subject — 'digital lens' / 'AI vision' aesthetic",
+    "flat_shading": "Isometric cube and diagram use flat color blocking only — no bevels or gradients",
+    "film_grain": "Very fine grain on quote card backgrounds — gives paper-like quality, prevents plastic flatness",
+    "graffiti_drips": "Wet paint drip effect on street-style headline text — organic detail in digital composition",
+    "scan_line": "Thin horizontal scan line through eye-frame on profile images — 'surveillance/dossier' motif"
+  },
+  "subject": {
+    "identity": "Joe Perkins — middle-aged, groomed beard, short hair with tattoos visible",
+    "attire": "Black t-shirt and joggers (charcoal lifted blacks); tan high-top sneakers on some images",
+    "pose": "Direct gaze / confrontational eye contact; relaxed but authoritative; seated on black stool for studio shots",
+    "expression": "Serious, unblinking, stern — 'call to action' energy; never smiling"
+  },
+  "iconography": {
+    "rubiks_cube": {
+      "description": "Isometric 3x3 Rubik's Cube — yellow active stickers on grey/charcoal inactive stickers. Often arranges yellows to form a blocky number (e.g. '1') wrapping the cube corner.",
+      "usage": "Brand icon / episode numbering / 'complexity/systems' metaphor — appears in poster corners, as watermark, in brand guidelines"
+    },
+    "barcode": {
+      "description": "Not observed as active icon — but industrial/monospace typography evokes barcode aesthetic",
+      "usage": "Technical labeling aesthetic"
+    }
+  },
+  "mood_keywords": [
+    "Analytical", "Minimalist", "Intellectual", "Structured", "Modern",
+    "Bold", "Warm", "Effortless", "Industrial", "Urban", "Brutalist",
+    "Sophisticated", "Avant-garde", "Street-Couture", "Authoritative",
+    "Provocative", "Urgent", "Activism", "Futuristic", "Professional",
+    "High-Tech", "Direct", "No-nonsense", "Tough-love"
+  ],
+  "assets": [
+    {"filename": "Systems_Thinking_Logo.png", "type": "logo", "hook": "Isometric Rubik's cube with yellow '1' sticker pattern — minimal, analytical", "style": "Flat isometric, matte grey background"},
+    {"filename": "Systems_Thinking_Brand_Guidelines.png", "type": "brand_guidelines", "hook": "FROM PARIS WITH LOVE brand book — 4-column grid: palette, type, logo, imagery", "style": "Swiss editorial, industrial yellow/grey/charcoal"},
+    {"filename": "System_Thinking_Poster_Headline_Joe1.png", "type": "poster", "hook": "SAVE OUR DREAM graffiti over studio portrait, surveillance scanner overlay", "style": "Street-art meets editorial; duotone yellow/charcoal"},
+    {"filename": "System_Thinking_Joe_Quote.png", "type": "quote_card", "hook": "AI IS THE NEW UI — rectangular 'AI lens' mask reveal with duotone yellow/black subject", "style": "Tech keynote / magazine cover aesthetic"},
+    {"filename": "Systems_Thinking_Banner_LinkedIn.png", "type": "banner", "hook": "FROM PARIS WITH LOVE — full sandwich layering with t-shirt tech text", "style": "Street-couture editorial, industrial monospace labels"},
+    {"filename": "Systems_Thinking_Episode_01.png", "type": "thumbnail", "hook": "Yellow/grey split background, massive grey '01', Rubik's cube icon, Joe Perkins seated", "style": "Podcast/masterclass episode card — Swiss grid"},
+    {"filename": "System_Thinkinkig_Diagram_5.png", "type": "diagram", "hook": "OPENCLAW KEY SYSTEM ARCHITECTURE — isometric 5-step staircase", "style": "Brutalist-industrial technical diagram, yellow step highlights"},
+    {"filename": "Systems_Thinking_quote_card1.png", "type": "quote_card", "hook": "'THE ONLY PEOPLE WHO GETTHINGS DONE ARE PEOPLE WHO GETTINGRADE DONE' — typographic poster", "style": "Swiss flat design, yellow on muted lavender-grey, film grain"},
+    {"filename": "Systems_thinking _joe_profile.png", "type": "profile", "hook": "PROFILE / JOE PERKINS — scanner eye-frame, dark textured background, Smartly/Meta/TikTok", "style": "Cyberpunk dossier / security clearance aesthetic"}
+  ],
+  "generation_rules": {
+    "do": [
+      "Use yellow (#FDE910 to #F2E600) as primary accent — never muted or dirty",
+      "Use charcoal (#1A1A1B) instead of pure black",
+      "Use grey (#939598 range) as primary background — never pure white",
+      "Apply sandwich layering — subject between typography on Z-axis",
+      "Keep finish matte — no glossy reflections",
+      "Desaturate skin tones heavily to prevent competition with yellow",
+      "Use heavy geometric sans-serif (Inter/Helvetica/Impact) in ALL CAPS for headlines",
+      "Include Rubik's cube icon to symbolize systems/complexity",
+      "Apply fine film grain to flat grey backgrounds for tactile quality",
+      "Use hard-edge rectangular masks for duotone subject reveals"
+    ],
+    "never": [
+      "Use pure #000000 — always #1A1A1B or lifted",
+      "Use pure white (#FFFFFF) as a background",
+      "Use gradient backgrounds on poster/quote cards — keep flat",
+      "Apply drop shadows or bevels — flat design only",
+      "Make subject look happy — serious, authoritative, confrontational",
+      "Use more than 3 primary colors — restricted palette only",
+      "Put text directly on photo without masking — always sandwich-layer"
+    ]
+  }
+}

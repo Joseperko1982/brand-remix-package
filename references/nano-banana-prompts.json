@@ -1,0 +1,988 @@
+{
+  "brand": "System Thinking — Joe Perkins",
+  "campaign": "SAS is dead",
+  "platform": "Nano Banana",
+  "description": "10 detailed JSON image generation prompts for the 'SAS is dead' campaign. Each prompt injects the complete Visual DNA (palette, typography, composition, effects) and references specific seed images from the gallery.",
+  "visual_dna_refs": {
+    "palette": {
+      "yellow": ["#FDE910", "#F2E900", "#FFF200", "#FDF21C"],
+      "charcoal": ["#1A1A1B", "#232323"],
+      "grey": ["#9B9B9B", "#A6A6A6"]
+    },
+    "fonts": ["Impact", "Helvetica Compressed", "Bebas Neue", "Akzidenz-Grotesk"],
+    "subject": "Joe Perkins — middle-aged male, salt-and-pepper hair, groomed beard, black crew-neck t-shirt",
+    "seed_images": [
+      "Systems_Thinking_Episode_01.png",
+      "System_Thinking_Joe_Quote.png",
+      "Systems_Thinkinh_Joe_Quote2.png",
+      "Systems_Thinking_Poster_Mask_Text_Joe.png",
+      "Sysetms_Thinking_Headline_MAsk_Joe5.png",
+      "Systems_Thinking_Banner_LinkedIn.png",
+      "Systems_Thinking_Logo.png",
+      "Systems_Thinking_Title_Card.png",
+      "Systems_Thinking_Brand_Guidelines.png",
+      "Systems_thinking_diagram_1.png"
+    ]
+  },
+  "prompts": [
+    {
+      "id": 1,
+      "name": "SAS IS DEAD — Thumbnail Hero",
+      "seed_image": "Systems_Thinking_Episode_01.png",
+      "concept": "LinkedIn thumbnail for the SAS is dead post. Bold confrontational opener with Joe Perkins as the authoritative figure.",
+      "prompt": {
+        "subject": "Middle-aged male with salt-and-pepper hair and groomed beard, wearing a black crew-neck t-shirt, looking directly at camera with a stoic, confrontational expression. Seated pose, relaxed but authoritative.",
+        "background": {
+          "type": "solid_field",
+          "color": "#1A1A1B",
+          "texture": "none"
+        },
+        "foreground_elements": [
+          {
+            "type": "text",
+            "content": "SAS IS DEAD.",
+            "font": "Impact, Helvetica Compressed, or Bebas Neue",
+            "weight": "Ultra-Bold Black",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "size": "maximum_scale",
+            "kerning": "tight",
+            "position": "upper_two_thirds"
+          },
+          {
+            "type": "text",
+            "content": "SYSTEMS THINKING.",
+            "font": "Inter, Helvetica",
+            "weight": "Bold",
+            "case": "uppercase",
+            "color": "#9B9B9B",
+            "size": "small",
+            "position": "lower_third_badge",
+            "style": "pill-shaped outline in #FDE910"
+          }
+        ],
+        "composition": {
+          "layout": "rule_of_thirds",
+          "subject_position": "lower_center",
+          "text_position": "upper_two_thirds_centered",
+          "z_axis_layering": "background (#1A1A1B) → typography (yellow) → subject (foreground)"
+        },
+        "effects": {
+          "film_grain": true,
+          "matte_finish": true,
+          "contrast": "maximum",
+          "saturation": "yellow pushed to maximum"
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#1A1A1B",
+          "accent": "#9B9B9B"
+        },
+        "aspect_ratio": "1.91:1",
+        "style_descriptor": "Bold confrontational LinkedIn thumbnail, high-contrast yellow on charcoal, industrial minimalist, Swiss design influence"
+      }
+    },
+    {
+      "id": 2,
+      "name": "SAS IS DEAD — Quote Card Portrait",
+      "seed_image": "System_Thinking_Joe_Quote.png",
+      "concept": "Quote card with Joe in focus rectangle style. The SAS acronym reframe takes center stage.",
+      "prompt": {
+        "subject": "Middle-aged male with salt-and-pepper hair and groomed beard, black crew-neck t-shirt. Direct gaze, neutral stoic expression. Cut out from original background.",
+        "background": {
+          "type": "gradient_spotlight",
+          "primary": "#9B9B9B",
+          "secondary": "#A6A6A6",
+          "effect": "circular_spotlight_from_left_with_yellow_tint",
+          "grain": true
+        },
+        "foreground_elements": [
+          {
+            "type": "focus_rectangle",
+            "stroke_color": "#FDE910",
+            "stroke_width": "2px",
+            "fill": "transparent",
+            "position": "framing_the_subject",
+            "note": "Subject's arms and head break the rectangle boundary — 'thinks outside the box' metaphor"
+          },
+          {
+            "type": "text",
+            "content": "SAS: 'Same As Same.'",
+            "font": "Impact, Helvetica Compressed",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "position": "right_third",
+            "size": "large",
+            "kerning": "tight"
+          },
+          {
+            "type": "text",
+            "content": "More variations of the same unremarkable creative. Faster. Cheaper. More.",
+            "font": "Inter, Helvetica",
+            "weight": "Regular",
+            "case": "sentence",
+            "color": "#1A1A1B",
+            "position": "below_main_hook",
+            "size": "medium"
+          }
+        ],
+        "composition": {
+          "layout": "rule_of_thirds",
+          "subject_position": "left_third",
+          "text_position": "right_two_thirds",
+          "z_axis_layering": "grey_background → spotlight_gradient → subject → focus_rectangle → text_overlay"
+        },
+        "effects": {
+          "desaturation_on_subject": true,
+          "skin_tones": "cool_desaturated",
+          "duotone_treatment": "selective yellow highlights on subject",
+          "matte_finish": true,
+          "film_grain": "subtle"
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#9B9B9B",
+          "tertiary": "#1A1A1B"
+        },
+        "aspect_ratio": "1:1",
+        "style_descriptor": "Focus rectangle quote card, yellow accent frame, duotone treatment, matte industrial aesthetic"
+      }
+    },
+    {
+      "id": 3,
+      "name": "SAS IS DEAD — Full Poster (Text Sandwich)",
+      "seed_image": "Systems_Thinkinh_Joe_Quote2.png",
+      "concept": "Full poster with Joe between layers of typography. The 'sandwich' layering technique creates 3D depth.",
+      "prompt": {
+        "subject": "Middle-aged male with salt-and-pepper hair and groomed beard, black crew-neck t-shirt. Seated on black metal stool, legs crossed, hands resting casually. Direct eye contact, neutral confident expression.",
+        "background": {
+          "type": "split_horizon",
+          "upper_color": "#FDE910",
+          "lower_color": "#9B9B9B",
+          "split_ratio": "65/35",
+          "note": "Flat matte finish, no gradient on flat areas"
+        },
+        "foreground_elements": [
+          {
+            "type": "text_layer_back",
+            "content": "SAS",
+            "font": "Impact, Helvetica Compressed Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "size": "massive_70_percent_vertical_canvas",
+            "kerning": "very_tight",
+            "position": "behind_subject_upper",
+            "opacity": 0.15
+          },
+          {
+            "type": "text_layer_front",
+            "content": "IS DEAD.",
+            "font": "Impact, Helvetica Compressed Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#1A1A1B",
+            "size": "massive",
+            "kerning": "very_tight",
+            "position": "in_front_of_subject_lower",
+            "note": "Creates 3D sandwich pop-out effect with subject between text layers"
+          },
+          {
+            "type": "text",
+            "content": "When production becomes free, taste becomes the only thing worth charging for.",
+            "font": "Inter, Helvetica",
+            "weight": "Regular",
+            "case": "sentence",
+            "color": "#1A1A1B",
+            "position": "bottom_center",
+            "size": "small"
+          }
+        ],
+        "composition": {
+          "layout": "centered_symmetry",
+          "subject_position": "dead_center",
+          "text_layers": "3_z_axis_layers — back text → subject → front text",
+          "split_line": "horizon line at upper third"
+        },
+        "effects": {
+          "subject_cutout": true,
+          "clean_mask": true,
+          "matte_finish": true,
+          "no_gloss": true,
+          "skin_tones": "slightly_desaturated"
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#9B9B9B",
+          "tertiary": "#1A1A1B"
+        },
+        "aspect_ratio": "2:3",
+        "style_descriptor": "Text sandwich poster, 3D pop-out layering, yellow/grey split horizon, Swiss design, industrial studio"
+      }
+    },
+    {
+      "id": 4,
+      "name": "SAS IS DEAD — Stippled Duotone Portrait",
+      "seed_image": "Systems_Thinking_Poster_Mask_Text_Joe.png",
+      "concept": "Gritty street-art style. Joe's portrait overlaid with SAS typography in a distressed wheat-paste aesthetic.",
+      "prompt": {
+        "subject": "Middle-aged male with salt-and-pepper hair and groomed beard. Portrait bust framing, direct confrontational gaze.",
+        "background": {
+          "type": "textured_charcoal",
+          "color": "#1A1A1B",
+          "texture": "distressed_wheat_paste_folded_paper",
+          "effects": ["horizontal_creases", "vertical_creases", "scuffs", "scratches"]
+        },
+        "foreground_elements": [
+          {
+            "type": "text_background_layer",
+            "content": "SAS SAS SAS SAS SAS SAS SAS",
+            "font": "Impact, Helvetica Compressed",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#F2D600",
+            "size": "large",
+            "kerning": "very_tight",
+            "position": "behind_subject",
+            "treatment": "stippled_halftone_dithered"
+          },
+          {
+            "type": "text_foreground",
+            "content": "IS DEAD.",
+            "font": "Impact, Helvetica Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "size": "massive",
+            "position": "upper_half",
+            "treatment": "distressed_edges_ink_bleed"
+          },
+          {
+            "type": "subject_portrait",
+            "treatment": "duotone_threshold",
+            "shadow_color": "#1A1A1B",
+            "highlight_color": "#9B9B9B",
+            "stippling_density": "variable_for_shading"
+          }
+        ],
+        "composition": {
+          "layout": "centered_confrontational",
+          "subject_position": "center_bust",
+          "rule_of_thirds": "ignored_in_favor_of_center_confrontation",
+          "text_visibility": "text_visible_through_gaps_in_subject_silhouette"
+        },
+        "effects": {
+          "halftone_dithering": true,
+          "distress_filters": true,
+          "ink_bleed": true,
+          "threshold_adjustment": true,
+          "duotone_mapping": "two_tone_only_yellow_and_charcoal",
+          "high_contrast": true
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#F2D600",
+          "tertiary": "#1A1A1B",
+          "quaternary": "#9BA7B0"
+        },
+        "aspect_ratio": "1:1",
+        "style_descriptor": "Gritty street-art duotone, stippled portrait, distressed wheat-paste, confrontational underground zine aesthetic"
+      }
+    },
+    {
+      "id": 5,
+      "name": "SAS IS DEAD — Yellow Neon on Black",
+      "seed_image": "Sysetms_Thinking_Headline_MAsk_Joe5.png",
+      "concept": "Pure typographic statement. Maximum contrast. The reframe lives in the text alone.",
+      "prompt": {
+        "subject": "None — pure typographic graphic",
+        "background": {
+          "type": "solid",
+          "color": "#1A1A1B",
+          "note": "No texture, no gradient — pure void"
+        },
+        "foreground_elements": [
+          {
+            "type": "text",
+            "content": "SAS",
+            "font": "Helvetica Compressed Black, Impact, or Bebas Neue",
+            "weight": "Ultra-Bold Black",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "size": "85_percent_of_vertical_canvas",
+            "kerning": "-20",
+            "leading": "tight",
+            "position": "center_upper",
+            "treatment": "flat_no_effects"
+          },
+          {
+            "type": "text",
+            "content": "IS DEAD.",
+            "font": "Helvetica Compressed Black, Impact, or Bebas Neue",
+            "weight": "Ultra-Bold Black",
+            "case": "ALL CAPS",
+            "color": "#FDF21C",
+            "size": "85_percent_of_vertical_canvas",
+            "kerning": "-20",
+            "leading": "tight",
+            "position": "center_lower",
+            "treatment": "flat_no_effects",
+            "note": "The period creates finality and urgency"
+          },
+          {
+            "type": "Rubiks_cube_icon",
+            "position": "bottom_right_corner",
+            "scale": "small",
+            "colors": ["#FDE910", "#9B9B9B", "#1A1A1B"],
+            "style": "isometric_flat_shading"
+          }
+        ],
+        "composition": {
+          "layout": "centered_symmetrical",
+          "text_arrangement": "two_line_stack_centered",
+          "proportion": "text_fills_85_percent_of_frame",
+          "negative_space": "minimal_margin"
+        },
+        "effects": {
+          "flat_design": true,
+          "no_shadows": true,
+          "no_glow": true,
+          "no_gradient": true,
+          "maximum_contrast": true,
+          "matte_finish": true,
+          "note": "Neon effect achieved purely through color theory — simultaneous contrast"
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#FDF21C",
+          "tertiary": "#1A1A1B"
+        },
+        "aspect_ratio": "1:1",
+        "style_descriptor": "Pure typographic statement, neon yellow on deep charcoal, maximum contrast, Swiss industrial, flat design"
+      }
+    },
+    {
+      "id": 6,
+      "name": "SAS IS DEAD — LinkedIn Banner",
+      "seed_image": "Systems_Thinking_Banner_LinkedIn.png",
+      "concept": "Wide-format LinkedIn banner. Joe centered with SAS IS DEAD overlaid. Professional yet confrontational.",
+      "prompt": {
+        "subject": "Middle-aged male with salt-and-pepper hair and groomed beard, black crew-neck t-shirt. Full-body seated on black metal stool, arms relaxed at sides, direct eye contact. Centered.",
+        "background": {
+          "type": "solid_field",
+          "color": "#FDE910",
+          "note": "Full-width yellow field — maximum brand presence"
+        },
+        "foreground_elements": [
+          {
+            "type": "text",
+            "content": "SAS IS DEAD.",
+            "font": "Impact, Helvetica Compressed Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#1A1A1B",
+            "size": "large",
+            "kerning": "tight",
+            "position": "upper_center",
+            "treatment": "knocked_out_of_yellow_or_shadowed"
+          },
+          {
+            "type": "text",
+            "content": "When the hiding place gets automated away.",
+            "font": "Inter, Helvetica",
+            "weight": "Regular",
+            "case": "sentence",
+            "color": "#1A1A1B",
+            "position": "below_headline",
+            "size": "medium",
+            "treatment": "white_space_surrounding"
+          },
+          {
+            "type": "Rubiks_cube_icon",
+            "position": "bottom_right",
+            "scale": "medium",
+            "colors": ["#1A1A1B", "#9B9B9B", "#FDE910"]
+          },
+          {
+            "type": "barcode",
+            "position": "bottom_left",
+            "color": "#1A1A1B",
+            "style": "stylized_non_functional"
+          }
+        ],
+        "composition": {
+          "layout": "centered_horizontal",
+          "subject_position": "center",
+          "text_hierarchy": "headline_above_center → subline_below_headline",
+          "negative_space": "generous_grey_margin_on_sides"
+        },
+        "effects": {
+          "subject_cutout": true,
+          "matte_finish": true,
+          "high_key": true,
+          "flat_design": true,
+          "no_gradient": true
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#1A1A1B",
+          "tertiary": "#9B9B9B"
+        },
+        "aspect_ratio": "4:1",
+        "style_descriptor": "LinkedIn banner, full-width yellow field, centered subject, bold industrial streetwear aesthetic"
+      }
+    },
+    {
+      "id": 7,
+      "name": "SAS IS DEAD — Focus Rectangle Duotone",
+      "seed_image": "System_Thinking_Joe_Quote.png",
+      "concept": "Sharp rectangular focus box. Inside: sharp yellow-highlighted Joe. Outside: blurred greyscale. The box = AI clarity.",
+      "prompt": {
+        "subject": "Middle-aged male with salt-and-pepper hair and groomed beard, black crew-neck t-shirt. Medium close-up, direct gaze.",
+        "background": {
+          "type": "blur_greyscale",
+          "color": "#A6A6A6",
+          "blur_amount": "heavy_gaussian",
+          "treatment": "subject_blurred_outside_focus_box"
+        },
+        "foreground_elements": [
+          {
+            "type": "focus_rectangle",
+            "position": "slightly_offset_right",
+            "fill": "none",
+            "stroke_color": "#FDE910",
+            "stroke_width": "2px",
+            "note": "Inside the box: sharp subject with yellow color cast. Outside: greyscale blur."
+          },
+          {
+            "type": "subject_in_focus_box",
+            "treatment": "sharp_with_yellow_tint",
+            "saturation": "subject_slightly_boosted",
+            "contrast": "high_micro_contrast"
+          },
+          {
+            "type": "text",
+            "content": "AI brings the focus.",
+            "font": "Impact, Helvetica Compressed",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "position": "inside_focus_box_lower",
+            "size": "medium",
+            "kerning": "tight"
+          },
+          {
+            "type": "text",
+            "content": "SAS never had the taste to fill it.",
+            "font": "Inter, Helvetica",
+            "weight": "Regular",
+            "case": "sentence",
+            "color": "#1A1A1B",
+            "position": "below_focus_box",
+            "size": "medium"
+          }
+        ],
+        "composition": {
+          "layout": "asymmetric_focus",
+          "focus_box": "slightly_right_of_center",
+          "rule_of_thirds": "subject_eyes_on_upper_third",
+          "z_axis": "grey_blur → focus_box_with_subject → text_overlay"
+        },
+        "effects": {
+          "duotone_treatment": "inside_box_yellow_charcoal",
+          "gaussian_blur": "heavy_outside_box",
+          "sharpening": "high_on_face_inside_box",
+          "yellow_color_cast": "inside_focus_area",
+          "film_grain": "subtle"
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#1A1A1B",
+          "tertiary": "#A6A6A6"
+        },
+        "aspect_ratio": "1:1",
+        "style_descriptor": "Selective focus rectangle, duotone yellow/charcoal inside box, greyscale blur outside, cinematic tech editorial"
+      }
+    },
+    {
+      "id": 8,
+      "name": "SAS IS DEAD — Isometric Diagram",
+      "seed_image": "Systems_thinking_diagram_1.png",
+      "concept": "Information design / infographic style. The SAS→taste reframe visualized as a process flow.",
+      "prompt": {
+        "subject": "None — pure infographic/diagram",
+        "background": {
+          "type": "solid",
+          "color": "#9B9B9B",
+          "note": "Flat matte grey, no texture"
+        },
+        "foreground_elements": [
+          {
+            "type": "title",
+            "content": "SAS IS DEAD.",
+            "font": "Impact, Helvetica Compressed Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "size": "large",
+            "position": "top_left",
+            "kerning": "tight"
+          },
+          {
+            "type": "process_flow",
+            "stages": [
+              {"label": "SAS", "description": "More, faster, cheaper", "color": "#9B9B9B", "active": false},
+              {"label": "AI", "description": "Production at zero cost", "color": "#FDE910", "active": true},
+              {"label": "TASTE", "description": "The only differentiator", "color": "#FDE910", "active": true}
+            ],
+            "style": "vertical_spine_with_nodes",
+            "node_shape": "circles_with_numbers",
+            "connector_style": "solid_yellow_line"
+          },
+          {
+            "type": "Rubiks_cube_icon",
+            "position": "bottom_right",
+            "scale": "medium",
+            "colors": ["#FDE910", "#1A1A1B", "#9B9B9B"],
+            "style": "isometric_flat_shading"
+          },
+          {
+            "type": "quote",
+            "content": "'The bottleneck was never production. It was taste.'",
+            "font": "Inter, Helvetica",
+            "weight": "Regular Italic",
+            "case": "sentence",
+            "color": "#1A1A1B",
+            "position": "bottom_center",
+            "size": "small"
+          }
+        ],
+        "composition": {
+          "layout": "vertical_hierarchy",
+          "alignment": "left_aligned_text",
+          "spine": "central_vertical_axis",
+          "balance": "title_top_left → flow_center → quote_bottom"
+        },
+        "effects": {
+          "flat_design": true,
+          "double_ring_nodes": true,
+          "iconography": "simple_solid_glyphs",
+          "high_contrast": true,
+          "industrial_yellow_on_grey": true
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#9B9B9B",
+          "tertiary": "#1A1A1B"
+        },
+        "aspect_ratio": "3:4",
+        "style_descriptor": "Vertical process flow diagram, industrial yellow on matte grey, Swiss information design, isometric iconography"
+      }
+    },
+    {
+      "id": 9,
+      "name": "SAS IS DEAD — Yellow Glow Spotlight",
+      "seed_image": "Systems_Thinkinh_Joe_Quote2.png",
+      "concept": "Cinematic. Yellow spotlight from behind Joe's head creates a halo. The glow = the future; the grey = what's dying.",
+      "prompt": {
+        "subject": "Middle-aged male with salt-and-pepper hair and groomed beard, black crew-neck t-shirt. Medium close-up, looking slightly upward, stoic visionary expression. Low-angle camera position (worm's eye).",
+        "background": {
+          "type": "radial_spotlight",
+          "center_color": "#FDE910",
+          "center_opacity": 0.8,
+          "edge_color": "#9B9B9B",
+          "edge_opacity": 0.3,
+          "falloff": "gaussian_soft",
+          "position": "behind_subject_upper_left",
+          "note": "Yellow rim light catches the left side of subject's hair and face"
+        },
+        "foreground_elements": [
+          {
+            "type": "text",
+            "content": "SAS",
+            "font": "Impact, Helvetica Compressed Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#1A1A1B",
+            "size": "large",
+            "position": "upper_right",
+            "treatment": "knocked_out_reversed"
+          },
+          {
+            "type": "text",
+            "content": "IS DEAD.",
+            "font": "Impact, Helvetica Compressed Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "size": "large",
+            "position": "lower_left",
+            "treatment": "solid_yellow"
+          },
+          {
+            "type": "Rubiks_cube_icon",
+            "position": "bottom_right_corner",
+            "scale": "small",
+            "colors": ["#FDE910", "#1A1A1B", "#9B9B9B"]
+          }
+        ],
+        "composition": {
+          "layout": "low_angle_heroic",
+          "subject_position": "center",
+          "camera_angle": "worm_eye_low",
+          "rule_of_thirds": "subject_eyes_upper_center_third",
+          "lighting": "three_point_with_yellow_rim_from_upper_left"
+        },
+        "effects": {
+          "rim_lighting": "yellow_catch_light_on_hair_and_face_edge",
+          "skin_tones": "warm_natural_with_yellow_cast",
+          "black_levels": "charcoal_not_pure_black",
+          "film_grain": true,
+          "cinematic": true,
+          "matte_finish": false,
+          "highlight_saturation": "pushed_on_yellow_channels"
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#1A1A1B",
+          "tertiary": "#9B9B9B"
+        },
+        "aspect_ratio": "9:16",
+        "style_descriptor": "Cinematic low-angle portrait, yellow spotlight halo, noir-industrial aesthetic, editorial tech visionary"
+      }
+    },
+    {
+      "id": 10,
+      "name": "SAS IS DEAD — Brand Mark Composition",
+      "seed_image": "Systems_Thinking_Logo.png",
+      "concept": "Pure brand statement. The Rubik's cube (Systems Thinking) overtakes the SAS acronym. Geometric, architectural, minimal.",
+      "prompt": {
+        "subject": "None — pure geometric brand composition",
+        "background": {
+          "type": "solid",
+          "color": "#1A1A1B",
+          "note": "Deep charcoal void — maximum contrast canvas"
+        },
+        "foreground_elements": [
+          {
+            "type": "text",
+            "content": "SAS",
+            "font": "Helvetica Compressed Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#232323",
+            "size": "massive",
+            "position": "center",
+            "treatment": "faded_to_zero_opacity_as_if_dissolving",
+            "note": "SAS letters fading/dissolving — the old model being replaced"
+          },
+          {
+            "type": "Rubiks_cube_icon",
+            "position": "center_overlay",
+            "scale": "very_large",
+            "colors": ["#FDE910", "#9B9B9B", "#1A1A1B"],
+            "style": "isometric_3D_flat_shading",
+            "cube_face_colors": {
+              "active_face": "#FDE910",
+              "inactive_light": "#9B9B9B",
+              "inactive_dark": "#1A1A1B"
+            },
+            "note": "Yellow tiles form the path/shape of 'TASTE' across the cube faces"
+          },
+          {
+            "type": "text",
+            "content": "TASTE.",
+            "font": "Impact, Helvetica Compressed Black",
+            "weight": "Ultra-Bold",
+            "case": "ALL CAPS",
+            "color": "#FDE910",
+            "size": "large",
+            "position": "below_cube",
+            "kerning": "tight",
+            "treatment": "solid"
+          },
+          {
+            "type": "text",
+            "content": "THE ONLY THING WORTH CHARGING FOR.",
+            "font": "Inter, Helvetica",
+            "weight": "Regular",
+            "case": "uppercase",
+            "color": "#9B9B9B",
+            "size": "small",
+            "position": "bottom_center",
+            "letter_spacing": "wide"
+          }
+        ],
+        "composition": {
+          "layout": "centered_geometric",
+          "visual_hierarchy": "fading_SAS → dominant_cube → bold_TASTE → supporting_ tagline",
+          "balance": "strict_centered_symmetry",
+          "negative_space": "expansive_charcoal_background"
+        },
+        "effects": {
+          "flat_shading": "no_gradients_each_cube_face_is_single_solid_color",
+          "vector_precision": true,
+          "no_noise": true,
+          "no_film_grain": true,
+          "maximum_contrast": "electric_yellow_on_deep_charcoal",
+          "dissolve_effect": "on_the_SAS_text_only"
+        },
+        "color_palette": {
+          "primary": "#FDE910",
+          "secondary": "#1A1A1B",
+          "tertiary": "#232323",
+          "quaternary": "#9B9B9B"
+        },
+        "aspect_ratio": "1:1",
+        "style_descriptor": "Pure brand mark composition, isometric Rubik's cube with yellow active path forming 'TASTE', dissolving SAS, maximum contrast, architectural minimalism"
+      }
+    },
+    {
+      "id": 11,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Typographic Pure (v2)",
+      "drift_level": "low",
+      "seed_images": ["System_Thinking_Logo.png"],
+      "vision_score": "10/10",
+      "output_file": "SAS_IS_DEAD_typographic_v2.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776341334553_levetf.png",
+      "notes": "Pure typographic poster. Yellow #FDE910 on charcoal #1A1A1B. 'SAS IS DEAD.' stacked. Rubik's cube icon. 1:1. Best brand alignment score achieved.",
+      "prompt": {
+        "subject": "None — pure typographic graphic",
+        "background": "solid #1A1A1B charcoal, no texture, no gradient",
+        "foreground": ["'SAS' massive #FDE910 Impact Condensed Black, stacked above 'IS DEAD.' same color", "Small isometric Rubik's cube bottom-right: #FDE910/#9B9B9B/#1A1A1B"],
+        "effects": "matte finish, zero shadows/glow/gradients, maximum contrast simultaneous color theory",
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "id": 12,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Graffiti Sandwich (v3)",
+      "drift_level": "medium",
+      "seed_images": ["System_Thinking_Poster_Headline_Joe1.png", "System_Thinking_Joe_Multi_Shot.png"],
+      "vision_score": "9.8/10",
+      "output_file": "v3_sas_dead_graffiti.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776341725283_8pynqe.png",
+      "notes": "Street-art Z-axis sandwich. 'SAS' stencil behind Joe, 'IS DEAD.' over his chest. Split yellow/charcoal horizon. Textbook sandwich composition. Most street-authentic.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, direct confrontational gaze, wearing a black crew-neck t-shirt.",
+        "background": "split horizon — top 60% #FDE910, bottom 40% #1A1A1B",
+        "foreground": ["'SAS' massive stencil in #FDE910 behind subject", "'IS DEAD.' in charcoal #1A1A1B in front of subject chest — Z-axis sandwich"],
+        "effects": "matte, zero gloss, slight yellow duotone on subject face",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "id": 13,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Duotone Focus Rectangle (v4)",
+      "drift_level": "medium-high",
+      "seed_images": ["System_Thinking_Joe_Quote.png", "System_Thinking_Joe_Multi_Shot.png"],
+      "vision_score": "9.8/10",
+      "output_file": "v4_sas_dead_duotone.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776341723350_qij2a8.png",
+      "notes": "Vertical focus box — Joe sharp inside, grey blur outside. 'SAS' breaks top boundary. Most 'AI lens/surveillance' aesthetic. Unique composition not in prior gallery.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged, salt-and-pepper hair, groomed beard, intense direct stare, black t-shirt.",
+        "background": "solid #1A1A1B charcoal, gaussian blur grey #9B9B9B outside focus box",
+        "foreground": ["Vertical focus rectangle center-right, 2px #FDE910 stroke, transparent fill", "Subject sharp inside box with yellow tint, blurred outside", "'SAS' massive #FDE910 above breaking top boundary", "'IS DEAD.' in grey below", "Rubik's cube bottom-right"],
+        "effects": "duotone inside box, gaussian blur outside, matte",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "id": 14,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Industrial Manifesto (v5)",
+      "drift_level": "high",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png"],
+      "vision_score": "9.2/10",
+      "output_file": "v5_sas_dead_manifesto.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776341722009_4z8b0m.png",
+      "notes": "Swiss grid. Vertical text column left, Joe silhouette right. Grey #939598 background. Most restrained/editorial. Gap in prior gallery: pure grey-background composition.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged, salt-and-pepper crew-cut hair, full grey beard, serious authoritative expression, black t-shirt.",
+        "background": "#939598 studio grey matte",
+        "foreground": ["Left: vertical text column — 'SAS' then 'IS DEAD.' then 'when taste becomes the only edge.' in #FDE910 Impact Condensed", "Right: Joe as sharp silhouette with yellow edge highlight", "Thin 2px vertical yellow rule separating columns"],
+        "effects": "matte, flat silhouette, Swiss design precision",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "id": 15,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — The Kill Bill (v6)",
+      "drift_level": "wild",
+      "seed_images": ["Systems_Thinking_Banner_LinkedIn.png", "System_Thinking_Joe_Multi_Shot.png"],
+      "vision_score": "9.8/10",
+      "output_file": "v6_sas_dead_killbill.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776341723145_wc1g0x.png",
+      "notes": "Arms-crossed confrontational Joe. Graffiti 'SAS' with head breaking letter A. 'THE ART OF THE QUICK KILL' monospace bottom-left. Heavy film grain. Most aggressive/confrontational. North Star asset.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper textured hair, full groomed beard, wearing a black t-shirt.",
+        "background": "#1A1A1B charcoal, no texture",
+        "foreground": ["Joe waist-up arms crossed, intense stare — hero", "Graffiti 'SAS' #FDE910 with Joe's head breaking through letter A", "'IS DEAD.' #FDF21C below", "'THE ART OF THE QUICK KILL' monospace small #9B9B9B bottom-left", "Rubik's cube bottom-right", "2px #FDE910 border frame entire composition"],
+        "effects": "heavy film grain, sharp rectangular mask, matte, zero shadows",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "id": 16,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Episode Thumbnail (v7)",
+      "drift_level": "low",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "Systems_Thinking_Logo.png"],
+      "vision_score": "9/10",
+      "output_file": "v7_episode_thumbnail.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776342433358_4xbgih.png",
+      "notes": "Episode-style thumbnail — yellow top field (#FDE910), grey bottom (#939598), 'SAS IS DEAD.' knocked out of yellow, Joe lower third, '01' behind shoulder, Rubik's cube. Gap in prior gallery: no episode thumbnail format.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, direct confrontational gaze, wearing a black crew-neck t-shirt.",
+        "background": "top 55%: solid #FDE910 matte. bottom 45%: solid #939598 matte.",
+        "foreground": ["'SAS IS DEAD.' knocked out of yellow field, #1A1A1B charcoal, Impact Black, upper-center", "Joe chest-up, lower third, slightly desaturated, sharp", "Bold '01' behind left shoulder, low opacity", "Isometric Rubik's cube bottom-right on grey field"],
+        "effects": "matte, zero shadows/glow/grain, Swiss editorial meets YouTube thumbnail",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "id": 17,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Surveillance Dossier (v8)",
+      "drift_level": "medium",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "Systems_thinking _joe_profile.png"],
+      "vision_score": "10/10",
+      "output_file": "v8_surveillance_dossier.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776342428406_h53yxz.png",
+      "notes": "Surveillance/dossier style — dark textured background, viewfinder frame around Joe's eyes, horizontal scan line through pupils, 'SAS' massive yellow above, technical mono labels bottom-left ('SUBJECT: SAS PARADIGM // STATUS: TERMINATED // 2024'), Rubik's cube. Brand surveillance aesthetic perfected.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, direct intense stare, wearing a black crew-neck t-shirt.",
+        "background": "#1A1A1B charcoal with heavy asphalt-noise texture",
+        "foreground": ["Rectangular viewfinder frame 2px #FDE910 around eyes, thin horizontal scan line through pupils", "'SAS' massive #FDE910 Impact Condensed above frame", "'IS DEAD.' #9B9B9B grey below frame", "'SUBJECT: SAS PARADIGM // STATUS: TERMINATED // 2024' monospace tiny bottom-left", "Rubik's cube bottom-right"],
+        "effects": "matte, no glow, surveillance scan aesthetic",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "id": 18,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Systems Diagram (v9)",
+      "drift_level": "high",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "System_Thinkinkig_Diagram_5.png"],
+      "vision_score": "10/10",
+      "output_file": "v9_systems_diagram.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776342430957_6hi3sv.png",
+      "notes": "Isometric vertical flowchart — TOP node: grey 'SAS' (old system), MIDDLE node: yellow 'IS DEAD.' (transition), BOTTOM node: yellow 'TASTE.' (new paradigm). Joe's face emerges from bottom node as origin point. Vertical mono labels left/right. Grey background. Swiss technical aesthetic. Gap: no prior generated diagram with Joe integrated.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, looking slightly upward with a visionary expression.",
+        "background": "#939598 flat matte grey",
+        "foreground": ["Vertical isometric flowchart — TOP grey node: 'SAS', MIDDLE yellow node: 'IS DEAD.', BOTTOM yellow largest: 'TASTE.'", "Joe's head/shoulders emerging from behind bottom node — eyes sharp", "Left mono labels: 'LEGACY: abundance without taste.', right: 'FRONTIER: taste as the only moat.'", "Isometric Rubik's cube small bottom-right"],
+        "effects": "matte, zero shadows, Swiss technical aesthetic",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "id": 19,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Split Body (v10)",
+      "drift_level": "wild",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "Systems_Thinking_Logo.png"],
+      "vision_score": "10/10",
+      "output_file": "v10_split_body.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776342429368_z9e5vh.png",
+
+    },
+    {
+      "id": 30,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Center-Stack: SAS IS DEAD (v21)",
+      "algorithm": 2,
+      "aspect_ratio": "4x5",
+      "drift_level": "low",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "System_Thinking_Poster_Headline_Joe1.png"],
+      "vision_score": "9.8/10",
+      "output_file": "v21_sas_dead_centerstack.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776344471985_5vdfon.png",
+      "notes": "Algorithm 2 center-stack. Full yellow field, Joe desaturated flat center-frame, 'SAS IS DEAD.' black on yellow horizontal band across mid-frame — knockout style. 9.8/10 — near perfect center-lock.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, deadpan confrontational gaze, wearing a black crew-neck t-shirt.",
+        "background": "Full #FDE910 yellow field — matte, zero texture.",
+        "joe_treatment": "Desaturated flat greyscale — no shadow no highlight — center-frame chest-up.",
+        "typography": "Horizontal band across center third: 'SAS' massive #1A1A1B charcoal Impact Black ALL CAPS — knocked out of the yellow band. 'IS DEAD.' solid charcoal below — tight.",
+        "rubiks_cube": "Tiny bottom-right — grey and yellow facets.",
+        "effects": "matte, zero shadows, zero gradients",
+        "aspect_ratio": "4x5"
+      }
+    },
+    {
+      "id": 31,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Center-Stack: Bottleneck (v22)",
+      "algorithm": 2,
+      "aspect_ratio": "4x5",
+      "drift_level": "medium",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "Systems_Thinking_quote_card1.png"],
+      "vision_score": "9.8/10",
+      "output_file": "v22_bottleneck_centerstack.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776344477527_x7gndg.png",
+      "notes": "Algorithm 2 center-stack. Vertical center split charcoal/yellow, Joe duotone straddling seam, 'THE BOTTLENECK / WAS NEVER PRODUCTION. / IT WAS TASTE.' stacked center-locked. 9.8/10 — Z-axis split perfectly executed.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, looking slightly upward with a knowing expression, wearing a black crew-neck t-shirt.",
+        "background": "Vertical center split — LEFT #1A1A1B charcoal, RIGHT #FDE910 yellow.",
+        "joe_treatment": "Duotone — #FDE910 highlights right side, #1A1A1B shadow left — straddling the seam.",
+        "typography": "Center-locked stack: 'THE BOTTLENECK' massive #FDE910 solid. 'WAS NEVER PRODUCTION.' smaller grey. 'IT WAS TASTE.' massive #1A1A1B charcoal — color-inverted text across the seam.",
+        "rubiks_cube": "None — full typographic composition.",
+        "effects": "matte, zero shadows, color-inversion on text across seam",
+        "aspect_ratio": "4x5"
+      }
+    },
+    {
+      "id": 32,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Center-Stack: Ship Taste (v23)",
+      "algorithm": 2,
+      "aspect_ratio": "4x5",
+      "drift_level": "high",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "Systems_Thinking_Logo.png"],
+      "vision_score": "10/10",
+      "output_file": "v23_ship_taste_centerstack.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776344473675_bykjkp.png",
+      "notes": "Algorithm 2 center-stack. Film grain grey, backlit silhouette Joe, 'THEY / SHIP TASTE.' yellow stacked, monospace 'SUBJECT: TASTE // STATUS: SHIPPED // 2026' bar across center on Joe. 10/10 — every element perfect.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, arms slightly open as if presenting, wearing a black crew-neck t-shirt.",
+        "background": "#939598 grey flat matte — fine film grain overlay — tactile.",
+        "joe_treatment": "Backlit silhouette — #FDE910 rim light on edges, body near-black — no facial detail — center-frame.",
+        "typography": "'THEY' massive #FDE910 solid. 'SHIP TASTE.' massive #FDE910 solid below. Monospace label band: #1A1A1B charcoal bar across center — 'SUBJECT: TASTE // STATUS: SHIPPED // 2026' white monospace inside.",
+        "rubiks_cube": "None — text-dominant composition.",
+        "effects": "matte, film grain, rim light on Joe only",
+        "aspect_ratio": "4x5"
+      }
+    },
+    {
+      "id": 33,
+      "campaign": "SAS is dead",
+      "name": "SAS IS DEAD — Center-Stack: Your Move (v24)",
+      "algorithm": 2,
+      "aspect_ratio": "4x5",
+      "drift_level": "low",
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "System_Thinking_Poster_Headline_Joe1.png"],
+      "vision_score": "8/10",
+      "output_file": "v24_your_move_centerstack.png",
+      "output_url": "https://tempfile.aiquickdraw.com/workers/nano/image_1776344474766_wbdhgm.png",
+      "notes": "Algorithm 2 center-stack. Dual field yellow/charcoal, Joe partially cropped center-frame, 'YOUR MOVE.' white on charcoal bar that crosses Joe's chest/neck. 8/10 — bar positioned on chest rather than across face as intended. Z-layers correct.",
+      "prompt": {
+        "subject": "Image one is a detailed photograph of the man — middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, chin slightly raised, deadpan stare, wearing a black crew-neck t-shirt.",
+        "background": "Dual field — top 60% #FDE910 yellow, bottom 40% #1A1A1B charcoal — sharp horizontal divide center-frame.",
+        "joe_treatment": "Partially cropped at shoulders — floating center — flat matte greyscale.",
+        "typography": "#1A1A1B charcoal rectangle bar runs across center — bold WHITE ALL CAPS 'YOUR MOVE.' inside — bar sits ON JOE's face/chin area — text in front of Joe.",
+        "rubiks_cube": "Tiny bottom-right — grey and yellow facets.",
+        "effects": "matte, zero shadows, Z-axis front-bar on Joe",
+        "aspect_ratio": "4x5"
+      }
+    }
+      "seed_images": ["System_Thinking_Joe_Multi_Shot.png", "Systems_Thinking_Logo.png"],
+      "vision_score": "9/10",
+      
+  ]
+}

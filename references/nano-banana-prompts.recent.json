@@ -1,0 +1,64 @@
+[
+  {
+    "id": "v25_centerstack_low",
+    "campaign": "centerstack_batch",
+    "drift_level": "low",
+    "algorithm": 2,
+    "aspect_ratio": "4x5",
+    "seed_images": [
+      "System_Thinking_Joe_Multi_Shot.png",
+      "System_Thinking_Poster_Headline_Joe1.png"
+    ],
+    "vision_score": "9.2/10",
+    "notes": "Solid yellow field, flat matte greyscale Joe, TASTE knockout on yellow band. Strong brand execution. Matte finish perfect.",
+    "prompt": "Image one is a detailed photograph of the man \u2014 middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, direct confrontational gaze, wearing a black crew-neck t-shirt. Background: solid #FDE910 yellow field \u2014 entirely matte, zero texture. Joe center-frame \u2014 chest-up \u2014 flat matte greyscale \u2014 no shadow, no highlight. One massive word center-frame \u2014 'TASTE.' \u2014 #1A1A1B charcoal \u2014 ALL CAPS Impact Black \u2014 knocked out of a #FDE910 horizontal band that runs across the center third of the frame. 4x5 aspect ratio. Matte finish. No shadows, no glow, no gradients.",
+    "frame_file": "v25_centerstack_low.png",
+    "timestamp": "2026-04-17T10:20:00"
+  },
+  {
+    "id": "v26_centerstack_medium",
+    "campaign": "centerstack_batch",
+    "drift_level": "medium",
+    "algorithm": 2,
+    "aspect_ratio": "4x5",
+    "seed_images": [
+      "System_Thinking_Joe_Multi_Shot.png",
+      "System_Thinking_Poster_Headline_Joe1.png"
+    ],
+    "vision_score": "8.5/10",
+    "notes": "Center split charcoal/yellow, Joe duotone, THE REVOLUTION solid reverse bar. Slightly protest-poster feel vs refined system, but strong.",
+    "prompt": "Image one is a detailed photograph of the man \u2014 middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, direct confrontational gaze, wearing a black crew-neck t-shirt. Background: vertical center split \u2014 LEFT side #1A1A1B charcoal, RIGHT side #FDE910 yellow. Joe straddles the seam. Joe center-frame \u2014 duotone: #FDE910 highlights on left side, #1A1A1B charcoal shadow on right. A charcoal #1A1A1B rectangle bar runs horizontally across the center \u2014 bold white ALL CAPS text 'THE REVOLUTION' inside the bar \u2014 text literally on top of Joe. 4x5 aspect ratio. Matte finish. No shadows, no glow, no gradients.",
+    "frame_file": "v26_centerstack_medium.png",
+    "timestamp": "2026-04-17T10:20:00"
+  },
+  {
+    "id": "v27_centerstack_high",
+    "campaign": "centerstack_batch",
+    "drift_level": "high",
+    "algorithm": 2,
+    "aspect_ratio": "4x5",
+    "seed_images": [
+      "System_Thinking_Joe_Multi_Shot.png"
+    ],
+    "vision_score": "9.2/10",
+    "notes": "Film grain charcoal, near-silhouette Joe, POV outline type. Matte finish perfect, surveillance/dossier atmosphere works well.",
+    "prompt": "Image one is a detailed photograph of the man \u2014 middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, direct confrontational gaze, wearing a black crew-neck t-shirt. Background: #1A1A1B charcoal with fine film grain overlay \u2014 surveillance matte. Joe center-frame \u2014 near-silhouette, only face lit by a hard directional light from the left. One massive word in outline/stroke only \u2014 'POV' \u2014 hollow #FDE910 yellow letters \u2014 background shows through the letters \u2014 center-frame. 4x5 aspect ratio. Matte finish. No shadows, no glow, no gradients.",
+    "frame_file": "v27_centerstack_high.png",
+    "timestamp": "2026-04-17T10:20:00"
+  },
+  {
+    "id": "v28_centerstack_wild",
+    "campaign": "centerstack_batch",
+    "drift_level": "wild",
+    "algorithm": 2,
+    "aspect_ratio": "4x5",
+    "seed_images": [
+      "System_Thinking_Joe_Multi_Shot.png"
+    ],
+    "vision_score": "8.5/10",
+    "notes": "60/40 yellow/charcoal split, backlit silhouette, quote mark + SAME label. Silhouette approach works for brand anonymity. Slight color warmth shift.",
+    "prompt": "Image one is a detailed photograph of the man \u2014 middle-aged with salt-and-pepper short cropped hair, full groomed boxed beard and mustache, direct confrontational gaze, wearing a black crew-neck t-shirt. Background: top 60% #FDE910 yellow, bottom 40% #1A1A1B charcoal \u2014 sharp horizontal divide. Joe emerges from the divide \u2014 backlit dark silhouette, no facial detail. A massive opening quotation mark in #FDE910 isolated on the left \u2014 the word 'SAME' in solid #939598 grey \u2014 rest of text implied \u2014 center-locked. 4x5 aspect ratio. Matte finish. No shadows, no glow, no gradients.",
+    "frame_file": "v28_centerstack_wild.png",
+    "timestamp": "2026-04-17T10:20:00"
+  }
+]

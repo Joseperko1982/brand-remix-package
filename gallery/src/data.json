@@ -1,0 +1,2790 @@
+{
+  "kai": {
+    "title": "The Retoucher",
+    "drift": 5,
+    "color": "#3b82f6",
+    "ads": [
+      {
+        "ad_id": "PRA-AW-B3-KAI-01",
+        "persona": "Pragmatist",
+        "stage": "Awareness",
+        "template": "B3",
+        "template_name": "By the Numbers",
+        "narrative_arc": "Cost facts breaking down EV economics to prove it's actually cheaper than petrol",
+        "vehicle_colour": "crystal-white",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "546km. One charge.",
+            "scene": "Crystal white ELEXIO in suburban driveway, weatherboard house, morning light, plugged into home wall charger, wheelie bins visible, shot wide 35mm lens capturing practical home environment",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "side-charging",
+              "environment": "suburban",
+              "feature": "home-charging",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for ELEXIO home charging setup. Keep the crystal white car, wall-box charger position, cable connection exactly. CHANGE: Replace clinical studio background with authentic Australian suburban driveway - weatherboard house, concrete drive with slight oil stains, wheelie bins in background, neighbour's brick house visible. Add early morning natural lighting (7am soft sunlight). Shot on 35mm lens f/5.6, natural depth of field. NO text overlays, NO watermarks, NO perfect surfaces.",
+              "drift_notes": "Replace studio with lived-in suburban environment while keeping charging setup"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 72.0,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "$15 per week to run.",
+            "scene": "Interior dashboard view showing 27-inch display with navigation, coffee cup in holder, school bag on passenger seat, natural daylight through windscreen, shot 50mm lens intimate cockpit view",
+            "seed_image": "STILL-036-interior-full-dashboard-widesc.png",
+            "seed_requirements": {
+              "angle": "detail-interior",
+              "environment": "suburban",
+              "feature": "27-inch-screen",
+              "mood": "technical"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for dashboard and 27-inch panoramic display. Keep the widescreen proportions, steering wheel position, premium materials exactly. Image 2 is the PREVIOUS FRAME - match crystal white exterior colour and natural morning lighting tone. CHANGE: Add lived-in family details - takeaway coffee cup in holder, child's school bag on passenger seat, slight fingerprints on screen. Natural daylight streaming through windscreen. Shot 50mm lens f/2.8 for intimate cockpit feel. NO clinical studio lighting, NO perfect cleanliness.",
+              "drift_notes": "Add family life details while maintaining technical showcase"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 93.0,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              },
+              {
+                "asset_id": "STILL-039",
+                "filename": "STILL-039-interior-widescreen-display-cl.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-039-interior-widescreen-display-cl.png",
+                "score": 82.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "vs $65 petrol. No contest.",
+            "scene": "Split frame comparison - ELEXIO at home charger left side, traditional petrol station queue right side, harsh midday sun, suburban servo with price board visible, shot documentary style 35mm",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "comparison",
+              "environment": "suburban",
+              "feature": "home-charging",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for ELEXIO charging position and crystal white colour. Image 3 is the PREVIOUS FRAME - match car colour and morning lighting exactly. CHANGE: Create split-screen composition - left side shows ELEXIO peacefully charging at suburban home, right side shows busy petrol station with cars queuing, price board showing high fuel costs. Harsh Australian midday sun, documentary photography style. Shot 35mm lens f/8 for sharp detail across both environments. NO studio lighting, NO text overlays.",
+              "drift_notes": "Split composition showing convenience contrast while keeping car consistent"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 72.0,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "The smart family choice. ELEXIO.",
+            "scene": "Family of four loading groceries into 506L boot, kids helping carry bags, suburban Woolworths car park, afternoon light, dad closing tailgate with satisfaction, shot 85mm lens family moment",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "detail-rear",
+              "environment": "suburban",
+              "feature": "506l-boot",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for open boot space and 506L cargo capacity. Keep the tailgate position, interior boot proportions exactly. Image 4 is the PREVIOUS FRAME - match crystal white car colour and natural lighting tone from previous keyframes. CHANGE: Add family loading weekly groceries - mum and two kids (8,12) helping carry Woolworths bags, dad about to close tailgate. Suburban shopping centre car park background, other family cars visible. Afternoon natural light, genuine family interaction. Shot 85mm lens f/4 for family portrait depth. NO staged perfection, NO studio lighting.",
+              "drift_notes": "Transform product shot into authentic family moment while showing boot space"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 82.5,
+                "role": "SEED",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              },
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              }
+            ]
+          }
+        ],
+        "cta": "Calculate Your Savings"
+      },
+      {
+        "ad_id": "CON-CON-B2-KAI-02",
+        "persona": "Conscious Consumer",
+        "stage": "Consideration",
+        "template": "B2",
+        "template_name": "Dawn to Dusk",
+        "narrative_arc": "A day in the life showing sustainable family choices from sunrise to sunset",
+        "vehicle_colour": "pebble-blue",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "6:30am. Zero emissions ready.",
+            "scene": "Pebble blue ELEXIO in garage beside house, solar panels visible on roof, early morning golden light, dad unplugging charger, coffee mug in hand, shot wide 24mm lens environmental context",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "side-charging",
+              "environment": "suburban",
+              "feature": "home-charging",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for home charging setup and cable position. Keep the wall-box charger location and connection point exactly. CHANGE: Car colour to pebble blue, setting to open garage with house visible, solar panels on roof, dad (35) unplugging charger holding coffee mug. Early morning golden hour light (6:30am), warm sustainable energy story. Shot 24mm lens f/8 for environmental context showing home-solar-car connection. NO clinical studio setting, NO perfect surfaces, authentic suburban home.",
+              "drift_notes": "Change to sustainable energy narrative while keeping charging mechanics"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 61.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "School run. Whisper quiet.",
+            "scene": "ELEXIO interior during school drop-off, mum driving, two kids in back with school bags, school zone in background, quiet cabin atmosphere, shot 35mm lens natural family moment",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "detail-interior",
+              "environment": "suburban",
+              "feature": "front-seats",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for interior seat configuration and spacious cabin feel. Keep the seat design, interior proportions exactly. Image 2 is the PREVIOUS FRAME - match pebble blue exterior colour and natural morning lighting tone. CHANGE: Add family context - mum (32) driving, two children (6,9) in back seats with school bags and water bottles, school zone visible through windows. Natural morning light, emphasis on quiet serene cabin atmosphere. Shot 35mm lens f/4 for intimate family space. NO studio lighting, NO staged perfection.",
+              "drift_notes": "Transform product shot into lived-in family school run moment"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 93.0,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 62.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Fresh air. Clean conscience.",
+            "scene": "ELEXIO at coastal lookout, family having picnic beside car, blue sky, ocean background, kids playing, parents setting up blanket, shot 50mm lens lifestyle environmental story",
+            "seed_image": "STILL-033-rear-three-quarter-dragon-red-.png",
+            "seed_requirements": {
+              "angle": "rear-34",
+              "environment": "coastal",
+              "feature": "exterior-design",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for rear three-quarter car angle and proportions. Keep the vehicle stance and design lines exactly. Image 3 is the PREVIOUS FRAME - match pebble blue car colour and natural lighting from previous frames exactly. CHANGE: Replace studio background with Australian coastal headland, family of four setting up picnic beside car, kids (6,9) playing, parents unpacking eco-friendly picnic gear. Clear blue sky, ocean view, emphasising clean environment connection. Shot 50mm lens f/5.6 for lifestyle depth. NO dark studio, NO dramatic lighting.",
+              "drift_notes": "Transform studio hero shot into family coastal lifestyle moment"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 80.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 76.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Tomorrow starts tonight. Charging sustainably.",
+            "scene": "Evening driveway scene, ELEXIO plugged in, house lights warm, solar panels on roof, family visible through kitchen window, peaceful end of day, shot 35mm lens golden hour",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "side-charging",
+              "environment": "suburban",
+              "feature": "home-charging",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for charging setup and cable connection. Keep the wall-box position and charging mechanics exactly. Image 4 is the PREVIOUS FRAME - match pebble blue car colour and natural lighting progression from morning to evening. CHANGE: Evening scene with warm house lights, solar panels silhouetted on roof, family visible through kitchen window, car peacefully charging. Golden hour light transitioning to dusk, completing the sustainable day cycle. Shot 35mm lens f/4 for environmental warmth. NO clinical studio, NO harsh lighting.",
+              "drift_notes": "Complete daily cycle narrative while maintaining charging product focus"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 61.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              }
+            ]
+          }
+        ],
+        "cta": "Book Test Drive"
+      },
+      {
+        "ad_id": "STA-AW-B1-KAI-03",
+        "persona": "Status Seeker",
+        "stage": "Awareness",
+        "template": "B1",
+        "template_name": "Objection Killer",
+        "narrative_arc": "Challenging assumption that premium EVs cost $80k+ by showcasing ELEXIO's luxury at $59,990",
+        "vehicle_colour": "dragon-red",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "Still think luxury EVs cost $80k+?",
+            "scene": "Dragon red ELEXIO three-quarter angle, dramatic studio lighting with shadows, premium positioning, questioning energy in composition, shot 85mm lens shallow depth creating intrigue",
+            "seed_image": "STILL-033-rear-three-quarter-dragon-red-.png",
+            "seed_requirements": {
+              "angle": "rear-34",
+              "environment": "studio-dark",
+              "feature": "exterior-design",
+              "mood": "premium"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for dragon red ELEXIO three-quarter angle and dramatic lighting setup. Keep the car position, colour, and studio lighting drama exactly. CHANGE: Add subtle questioning energy to composition - slightly more shadow play, mysterious premium atmosphere that challenges assumptions. Enhance the sculptural quality with deeper shadows. Shot 85mm lens f/2.8 for premium shallow depth. Maintain dark studio sophistication. NO bright lighting, NO casual atmosphere.",
+              "drift_notes": "Enhance dramatic premium mood while keeping core composition"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 97.0,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 76.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "27-inch 4K panoramic display.",
+            "scene": "Close-up interior shot of panoramic display showing premium interface, dramatic side lighting highlighting screen quality, luxury materials visible, shot macro 100mm lens technical precision",
+            "seed_image": "STILL-039-interior-widescreen-display-cl.png",
+            "seed_requirements": {
+              "angle": "detail-interior",
+              "environment": "studio",
+              "feature": "27-inch-screen",
+              "mood": "premium"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for 27-inch panoramic display proportions and premium interface. Keep the screen size, clarity and luxury material context exactly. Image 2 is the PREVIOUS FRAME - match dragon red car colour and dramatic premium lighting tone. CHANGE: Enhance dramatic side lighting to showcase screen quality and surrounding luxury materials, add subtle premium ambient lighting. Shot macro 100mm lens f/4 for technical precision showing 4K clarity. Maintain high-end studio production values. NO flat lighting, NO basic presentation.",
+              "drift_notes": "Enhance premium technical showcase while maintaining display focus"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-039",
+                "filename": "STILL-039-interior-widescreen-display-cl.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-039-interior-widescreen-display-cl.png",
+                "score": 97.0,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "27-inch-screen"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 86.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Premium leather. Wireless charging. Heated seats.",
+            "scene": "Interior detail showing front seats and centre console, premium materials highlighted, wireless charging pad visible, luxury appointment showcase, shot 50mm lens product detail precision",
+            "seed_image": "STILL-038-interior-centre-console-wirele.png",
+            "seed_requirements": {
+              "angle": "detail-interior",
+              "environment": "studio",
+              "feature": "wireless-charging",
+              "mood": "premium"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for centre console and wireless charging pad position. Keep the console design and charging pad exactly. Image 3 is the PREVIOUS FRAME - match dragon red exterior and dramatic premium lighting established in previous frames. CHANGE: Expand view to show premium leather seats, enhance lighting on luxury materials and textures, emphasise wireless charging pad and premium appointments. Shot 50mm lens f/3.5 for luxury detail clarity. Maintain high-end studio production values. NO casual lighting, NO basic materials.",
+              "drift_notes": "Expand premium feature showcase while keeping charging pad focus"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-038",
+                "filename": "STILL-038-interior-centre-console-wirele.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-038-interior-centre-console-wirele.png",
+                "score": 86.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "wireless-charging, console"
+              },
+              {
+                "asset_id": "STILL-039",
+                "filename": "STILL-039-interior-widescreen-display-cl.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-039-interior-widescreen-display-cl.png",
+                "score": 77.0,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "$59,990. Premium redefined. ELEXIO.",
+            "scene": "Dragon red ELEXIO in upscale urban setting, architectural background, confident positioning, premium lifestyle context, successful professional demographic implied, shot 35mm lens environmental luxury",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-dead-on",
+              "environment": "urban-day",
+              "feature": "exterior-front",
+              "mood": "confident"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for dragon red ELEXIO front-dead-on position and urban setting. Keep the car angle, colour and urban context exactly. Image 4 is the PREVIOUS FRAME - match dragon red car colour and premium lighting tone from previous keyframes. CHANGE: Enhance urban setting to suggest upscale location - premium architecture, clean modern environment suggesting successful lifestyle. Add confident premium positioning. Shot 35mm lens f/5.6 for environmental luxury context. Maintain sophisticated urban atmosphere. NO basic street setting, NO casual context.",
+              "drift_notes": "Enhance urban premium context while maintaining front-on product focus"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-035",
+                "filename": "STILL-035-front-dead-on-dragon-red-urban.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-035-front-dead-on-dragon-red-urban.png",
+                "score": 97.0,
+                "role": "SEED",
+                "angle": "front-dead-on",
+                "environment": "urban-day",
+                "feature": "exterior-front"
+              },
+              {
+                "asset_id": "STILL-045",
+                "filename": "STILL-045-headlamp-pixel-led-detail-clos.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-045-headlamp-pixel-led-detail-clos.png",
+                "score": 52.5,
+                "role": "SUPPORTING",
+                "angle": "detail-front",
+                "environment": "studio",
+                "feature": "headlamp, pixel-led"
+              }
+            ]
+          }
+        ],
+        "cta": "Experience Premium"
+      },
+      {
+        "ad_id": "ICE-AW-B4-KAI-04",
+        "persona": "ICE Converter",
+        "stage": "Awareness",
+        "template": "B4",
+        "template_name": "The Upgrade",
+        "narrative_arc": "Before/after showing familiar ICE pain points solved by ELEXIO upgrade",
+        "vehicle_colour": "crystal-white",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "Sick of servo queues every week?",
+            "scene": "Busy petrol station, cars queuing for pumps, family waiting in line, Australian suburban servo with high fuel prices visible, frustration energy, shot documentary 35mm lens",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "environmental",
+              "environment": "suburban",
+              "feature": "comparison",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for suburban automotive environment and realistic lighting. Ignore the car completely. CHANGE everything: Create busy Australian petrol station scene with family SUV (NOT ELEXIO) in fuel queue, multiple cars waiting, price board showing high petrol costs, parents looking frustrated. Suburban Shell or Caltex station, harsh midday sun, documentary style capturing familiar pain point. Shot 35mm lens f/8 for environmental reality. NO premium cars, NO ELEXIO visible, authentic suburban frustration.",
+              "drift_notes": "Complete scene change - using only lighting and environmental reference"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 52.0,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "Wake up charged. Every morning.",
+            "scene": "Crystal white ELEXIO in suburban garage, peaceful morning scene, owner unplugging from wall charger, coffee in hand, satisfied expression, shot 35mm lens lifestyle upgrade moment",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "side-charging",
+              "environment": "suburban",
+              "feature": "home-charging",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for crystal white ELEXIO and home charging setup. Keep car colour, charging cable position exactly. Image 2 is the PREVIOUS FRAME - contrast peaceful home scene with previous station chaos using calm morning lighting. CHANGE: Add suburban garage setting, dad (38) unplugging charger with coffee, satisfied peaceful expression, morning routine comfort. Natural morning light showing upgrade from fuel queue stress. Shot 35mm lens f/5.6 for lifestyle comfort. NO clinical studio, emphasise home convenience upgrade.",
+              "drift_notes": "Transform product shot into peaceful morning upgrade moment"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 61.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Boot space that actually works.",
+            "scene": "ELEXIO open boot loaded with sports equipment, pram, groceries simultaneously, family impressed by 506L capacity, suburban shopping centre background, shot 50mm lens practical demonstration",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "detail-rear",
+              "environment": "suburban",
+              "feature": "506l-boot",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for open boot space and 506L capacity layout. Keep tailgate position and interior boot proportions exactly. Image 3 is the PREVIOUS FRAME - match crystal white car colour and natural lighting progression. CHANGE: Load boot with realistic family chaos - soccer boots, pram, weekly groceries, sports bag all fitting easily. Mum looking impressed at capacity. Suburban shopping centre car park, other family SUVs visible for size comparison. Shot 50mm lens f/4 for practical demonstration. NO clinical emptiness, show real family volume needs.",
+              "drift_notes": "Transform empty product shot into capacity demonstration with family context"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 93.0,
+                "role": "SEED",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              },
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 52.0,
+                "role": "SUPPORTING",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "The family upgrade. ELEXIO.",
+            "scene": "Crystal white ELEXIO with happy family beside it in suburban driveway, kids playing, parents relaxed, home environment, upgrade completed successfully, shot 35mm lens family portrait style",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-dead-on",
+              "environment": "suburban",
+              "feature": "exterior-front",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for front-dead-on car positioning and proportions. Keep the vehicle angle exactly. Image 4 is the PREVIOUS FRAME - match crystal white car colour and natural lighting from all previous frames. CHANGE: Replace urban setting with suburban driveway, add happy family of four beside car - parents (35,32) and kids (7,10) in casual weekend clothes, relaxed upgrade satisfaction. Australian weatherboard house background, weekend afternoon natural light. Shot 35mm lens f/5.6 for family portrait warmth. NO urban setting, NO formal positioning.",
+              "drift_notes": "Transform urban product shot into successful family upgrade celebration"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-035",
+                "filename": "STILL-035-front-dead-on-dragon-red-urban.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-035-front-dead-on-dragon-red-urban.png",
+                "score": 74.5,
+                "role": "SEED",
+                "angle": "front-dead-on",
+                "environment": "urban-day",
+                "feature": "exterior-front"
+              },
+              {
+                "asset_id": "STILL-045",
+                "filename": "STILL-045-headlamp-pixel-led-detail-clos.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-045-headlamp-pixel-led-detail-clos.png",
+                "score": 52.5,
+                "role": "SUPPORTING",
+                "angle": "detail-front",
+                "environment": "studio",
+                "feature": "headlamp, pixel-led"
+              }
+            ]
+          }
+        ],
+        "cta": "Compare to Your Car"
+      }
+    ],
+    "ad_count": 4,
+    "prompt_count": 16
+  },
+  "nina": {
+    "title": "The Mood Shifter",
+    "drift": 30,
+    "color": "#a855f7",
+    "ads": [
+      {
+        "ad_id": "PRA-AW-B2-NINA-01",
+        "persona": "Pragmatist",
+        "stage": "Awareness",
+        "template": "B2",
+        "template_name": "Dawn to Dusk",
+        "narrative_arc": "A busy family's practical day powered by reliable electric range and home charging convenience",
+        "vehicle_colour": "crystal-white",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "6:30am. Charged and ready.",
+            "scene": "Crystal white ELEXIO in cluttered Australian suburban garage, plugged into wall charger, early morning light filtering through garage door gap, wheelie bins visible, garden tools and paint cans scattered around, peaceful domestic chaos before the day begins",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "detail-charging",
+              "environment": "suburban-garage",
+              "feature": "home-charging",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for the crystal white ELEXIO and wall charger setup. KEEP the car colour, charging cable position, and home charging concept. TRANSFORM to early morning golden hour lighting streaming through garage door opening. Add Australian suburban garage clutter - wheelie bins (green and yellow), paint tins, garden tools, kids' bikes. Soft warm morning light creates peaceful energy. Shot with 35mm lens, f/2.8 for shallow depth. NO text, NO watermarks, NO branding.",
+              "drift_notes": "Transform sterile studio to lived-in garage with warm morning atmosphere"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 64.0,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "School run. 43km range used.",
+            "scene": "Same crystal white ELEXIO in school drop-off zone chaos, kids with backpacks running toward brick-veneer school building, other parents in rush, harsh Australian midday sun, car interior shows lived-in family life with water bottles and school notices on dashboard",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "interior-lifestyle",
+              "environment": "suburban-school",
+              "feature": "spacious-interior",
+              "mood": "controlled-chaos"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME - match crystal white car colour and warm colour grade exactly. Using reference for spacious interior layout. KEEP interior proportions and seat design. TRANSFORM to school drop-off scene viewed from passenger side window. Interior shows family life - water bottles, school newsletters, kids' jackets. Outside window shows brick school building, other parents rushing, Australian school zone signs. Harsh midday sun creates strong shadows. Shot with 50mm lens, f/4. NO text, NO watermarks.",
+              "drift_notes": "Interior reference becomes lived-in family space in school context"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Woolies run. Boot swallows everything.",
+            "scene": "Crystal white ELEXIO in Woolworths car park, boot loaded with weekly groceries, shopping trolley beside car, tired mum organizing bags in harsh afternoon sun, suburban shopping centre background with other practical family cars, efficiency in action",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "detail-rear",
+              "environment": "suburban-carpark",
+              "feature": "506l-boot",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME - match crystal white car colour and colour grade exactly. Using reference for open boot space. KEEP boot dimensions and tailgate design. TRANSFORM to Woolworths car park with grocery shopping chaos. Fill boot with realistic weekly shop - bread, milk cartons, shopping bags. Add shopping trolley beside car, tired mum in casual clothes organizing bags. Background shows suburban shopping centre, other family cars. Harsh afternoon sunlight creates strong contrast. Shot with 35mm lens, f/5.6. NO text, NO watermarks.",
+              "drift_notes": "Studio boot becomes real-world grocery loading scene"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 93.0,
+                "role": "SEED",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              },
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 44.0,
+                "role": "SUPPORTING",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Home. Plugged in. Day done.",
+            "scene": "Crystal white ELEXIO back in suburban driveway at sunset, plugged into home charger, warm light from house windows, family silhouettes visible inside, peaceful end to busy day, Australian suburban streetscape with other weatherboard homes, charging for tomorrow",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-34",
+              "environment": "suburban-driveway",
+              "feature": "exterior-design",
+              "mood": "peaceful-resolution"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME - match crystal white car colour and warm colour grade exactly. Using reference for car positioning but change to crystal white. KEEP front proportions and headlight design. TRANSFORM to suburban driveway at golden hour sunset. Car positioned in driveway of weatherboard home with warm light from windows. Family silhouettes visible inside house. Charging cable connected. Peaceful residential street with other Australian homes. Warm sunset light creates serene atmosphere. Shot with 50mm lens, f/2.8. NO text, NO watermarks.",
+              "drift_notes": "Urban setting becomes peaceful suburban home at day's end"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 55.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-045",
+                "filename": "STILL-045-headlamp-pixel-led-detail-clos.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-045-headlamp-pixel-led-detail-clos.png",
+                "score": 52.5,
+                "role": "SUPPORTING",
+                "angle": "detail-front",
+                "environment": "studio",
+                "feature": "headlamp, pixel-led"
+              }
+            ]
+          }
+        ],
+        "cta": "Calculate Your Savings"
+      },
+      {
+        "ad_id": "CON-CON-B3-NINA-02",
+        "persona": "Conscious Consumer",
+        "stage": "Consideration",
+        "template": "B3",
+        "template_name": "By the Numbers",
+        "narrative_arc": "Environmental impact statistics building to emotional payoff of clean family future",
+        "vehicle_colour": "pebble-blue",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "Zero emissions. Every journey.",
+            "scene": "Pebble blue ELEXIO on coastal road with pristine blue sky, clean crisp morning light, natural environment showcasing zero pollution concept, dramatic wide shot emphasizing harmony between technology and nature",
+            "seed_image": "STILL-044-rear-three-quarter-dragon-red.png",
+            "seed_requirements": {
+              "angle": "rear-34",
+              "environment": "coastal-natural",
+              "feature": "exterior-design",
+              "mood": "eco-aspirational"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for car proportions and rear three-quarter angle. CHANGE car colour to pebble blue. KEEP vehicle stance and design elements. TRANSFORM studio background to pristine Australian coastal highway with crystal clear blue sky, no clouds. Perfect morning light creates clean, pure atmosphere. Surrounding environment shows untouched nature - native coastal vegetation, clean air quality, no pollution. Shot with 24mm wide lens, f/8 for sharp landscape. NO text, NO watermarks, NO emissions.",
+              "drift_notes": "Studio dragon red becomes coastal eco paradise in pebble blue"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 80.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 76.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "4.2 tonnes CO2 saved annually.",
+            "scene": "Same pebble blue ELEXIO at suburban home with rooftop solar panels, bright overcast daylight showing clean energy ecosystem, sustainable technology integration, Australian suburbia embracing renewable future",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "detail-charging",
+              "environment": "suburban-eco",
+              "feature": "home-charging",
+              "mood": "sustainable"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME - match pebble blue car colour and clean colour grade exactly. Using reference for home charging setup. CHANGE car to pebble blue, KEEP charging concept. TRANSFORM to show sustainable home ecosystem. Add solar panels on house roof, clean modern suburban home. Bright overcast daylight creates even, clean lighting. Emphasize renewable energy cycle - solar panels feeding house and car. Shot with 35mm lens, f/5.6 for environmental context. NO text, NO watermarks.",
+              "drift_notes": "Charging scene becomes complete renewable energy ecosystem"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 53.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "546km range. One clean charge.",
+            "scene": "Pebble blue ELEXIO dashboard interior showing full range display, clean modern cabin, natural daylight through panoramic sunroof, emphasizing the guilt-free long-distance capability, family road trip potential without emissions",
+            "seed_image": "STILL-036-interior-full-dashboard-widesc.png",
+            "seed_requirements": {
+              "angle": "detail-interior",
+              "environment": "studio-clean",
+              "feature": "dashboard-range",
+              "mood": "technical-clean"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME - match pebble blue exterior colour and clean colour grade exactly. Using reference for dashboard layout and widescreen display. KEEP interior proportions and screen design. TRANSFORM lighting to natural daylight streaming through panoramic sunroof. Display shows full range indicator. Clean, pure interior atmosphere emphasizes zero-emissions technology. Bright, even natural lighting creates optimistic mood. Shot with 24mm lens, f/4 for dashboard detail. NO text, NO watermarks.",
+              "drift_notes": "Studio interior becomes naturally lit clean technology showcase"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 72.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 72.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Clean air for their future.",
+            "scene": "Pebble blue ELEXIO parked at playground with happy children playing in background, golden afternoon light, family enjoying clean environment, emotional connection between sustainable choice and children's future wellbeing",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "lifestyle-context",
+              "environment": "family-playground",
+              "feature": "family-space",
+              "mood": "emotional-future"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME - match pebble blue car colour and clean colour grade exactly. Using reference for interior spaciousness concept but shift to exterior family scene. Car parked near Australian suburban playground with children playing on swings and slides in background. Golden afternoon light creates warm, hopeful atmosphere. Parents watching kids, clean air quality visible through crisp lighting. Emotional connection between sustainable transport and children's future. Shot with 50mm lens, f/2.8. NO text, NO watermarks.",
+              "drift_notes": "Interior space reference becomes family playground emotional payoff"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 47.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          }
+        ],
+        "cta": "Explore Sustainability Features"
+      },
+      {
+        "ad_id": "STA-AW-B1-NINA-03",
+        "persona": "Status Seeker",
+        "stage": "Awareness",
+        "template": "B1",
+        "template_name": "Objection Killer",
+        "narrative_arc": "Challenging preconceptions about EV luxury, building evidence of premium status and sophisticated technology",
+        "vehicle_colour": "dragon-red",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "Still think EVs lack luxury?",
+            "scene": "Dragon red ELEXIO in dramatic studio lighting with deep shadows, premium positioning, sophisticated atmosphere suggesting doubt about EV status credentials, moody lighting creating question mark energy about electric vehicle sophistication",
+            "seed_image": "STILL-033-rear-three-quarter-dragon-red-.png",
+            "seed_requirements": {
+              "angle": "rear-34",
+              "environment": "studio-dramatic",
+              "feature": "exterior-design",
+              "mood": "premium-questioning"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for dragon red ELEXIO and rear three-quarter angle. KEEP car colour, stance, and design elements exactly. TRANSFORM studio lighting to more dramatic, moody setup with deeper shadows and sophisticated contrast. Add subtle fog/haze for premium atmosphere. Lighting suggests uncertainty, questioning conventional wisdom about EVs. Professional automotive photography with sculptural shadows. Shot with 85mm lens, f/2.8 for dramatic depth. NO text, NO watermarks, NO people.",
+              "drift_notes": "Enhance existing drama with deeper shadows and premium questioning mood"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 80.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 76.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "27-inch panoramic 4K display.",
+            "scene": "Dragon red ELEXIO interior showcasing massive curved display screen, premium leather appointments, dramatic interior lighting emphasizing luxury technology, clean professional lighting proving sophisticated cabin environment",
+            "seed_image": "STILL-039-interior-widescreen-display-cl.png",
+            "seed_requirements": {
+              "angle": "detail-interior",
+              "environment": "studio-premium",
+              "feature": "27-inch-screen",
+              "mood": "luxury-technical"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME - match dragon red exterior colour and dramatic colour grade exactly. Using reference for panoramic display close-up. KEEP screen size, curvature, and interface design. TRANSFORM lighting to dramatic premium interior setup with professional automotive lighting rigs. Emphasize luxury materials around display - premium leather, sophisticated finishes. Display shows elegant interface. Clean, confident lighting builds evidence of luxury status. Shot with 50mm macro lens, f/4. NO text, NO watermarks.",
+              "drift_notes": "Close-up display becomes dramatically lit luxury proof point"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 82.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              },
+              {
+                "asset_id": "STILL-039",
+                "filename": "STILL-039-interior-widescreen-display-cl.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-039-interior-widescreen-display-cl.png",
+                "score": 82.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Premium leather. Heated massage seats.",
+            "scene": "Dragon red ELEXIO front seats in sophisticated studio lighting, premium leather textures highlighted, professional automotive photography emphasizing luxury appointments, building case for status vehicle credentials with tangible proof",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "detail-interior",
+              "environment": "studio-luxury",
+              "feature": "premium-seats",
+              "mood": "status-evidence"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME - match dragon red car colour and dramatic colour grade exactly. Using reference for front seats side view. KEEP seat proportions and interior architecture. TRANSFORM to luxury automotive photography setup with professional lighting emphasizing premium leather texture, stitching detail, sophisticated materials. Dramatic shadows highlight luxury craftsmanship. Building visual evidence of status vehicle. Shot with 85mm lens, f/2.8 for material detail. NO text, NO watermarks.",
+              "drift_notes": "Standard interior becomes luxury material showcase with dramatic lighting"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 62.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 62.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Arrive in style. Every time.",
+            "scene": "Dragon red ELEXIO arriving at upmarket urban location, sophisticated architectural background, confident lighting, premium positioning resolved, warm resolution showing the complete luxury EV experience in aspirational context",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-dead-on",
+              "environment": "urban-upmarket",
+              "feature": "exterior-presence",
+              "mood": "status-resolved"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME - match dragon red car colour and dramatic colour grade exactly. Using reference for front-on angle and urban setting. KEEP car positioning and dragon red colour. TRANSFORM to upmarket urban arrival scene - premium shopping district or business quarter with sophisticated architecture. Golden hour lighting creates warm, resolved atmosphere. Car positioned confidently, status question answered. Professional lifestyle automotive photography. Shot with 35mm lens, f/4. NO text, NO watermarks.",
+              "drift_notes": "Urban street becomes upmarket arrival destination with resolved confidence"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-035",
+                "filename": "STILL-035-front-dead-on-dragon-red-urban.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-035-front-dead-on-dragon-red-urban.png",
+                "score": 54.5,
+                "role": "SEED",
+                "angle": "front-dead-on",
+                "environment": "urban-day",
+                "feature": "exterior-front"
+              },
+              {
+                "asset_id": "STILL-045",
+                "filename": "STILL-045-headlamp-pixel-led-detail-clos.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-045-headlamp-pixel-led-detail-clos.png",
+                "score": 52.5,
+                "role": "SUPPORTING",
+                "angle": "detail-front",
+                "environment": "studio",
+                "feature": "headlamp, pixel-led"
+              }
+            ]
+          }
+        ],
+        "cta": "Book VIP Test Drive"
+      },
+      {
+        "ad_id": "ICE-ED-B4-NINA-04",
+        "persona": "ICE Converter",
+        "stage": "Education",
+        "template": "B4",
+        "template_name": "The Upgrade",
+        "narrative_arc": "Traditional petrol frustrations contrasted with electric solutions, showing the complete upgrade to family life",
+        "vehicle_colour": "crystal-white",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "Another $2.20/litre servo queue.",
+            "scene": "Busy petrol station with long queues, frustrated drivers waiting, fuel price signs showing expensive petrol costs, harsh midday Australian sun, conveying the familiar pain of ICE vehicle ownership and fuel dependency",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "environmental-context",
+              "environment": "petrol-station",
+              "feature": "fuel-pain-point",
+              "mood": "frustration"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for car positioning in urban environment. COMPLETELY TRANSFORM to busy Australian petrol station scene. Replace car with generic ICE SUV at fuel pump. Add long queue of cars waiting, frustrated drivers, fuel price signs showing $2.20/litre. Harsh midday sun creates uncomfortable atmosphere. Emphasize the pain of fuel dependency - crowded service station, time waste, cost anxiety. Shot with 35mm lens, f/5.6 for environmental context. NO text, NO watermarks.",
+              "drift_notes": "Urban car scene becomes petrol station frustration point"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "Wake up charged. Every morning.",
+            "scene": "Crystal white ELEXIO peacefully charging in suburban driveway, early morning calm, home charging cable connected, serene contrast to servo chaos, Australian suburban tranquility, solving the fuel pain with effortless home charging",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "detail-charging",
+              "environment": "suburban-peaceful",
+              "feature": "home-charging",
+              "mood": "calm-solution"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME - create complete contrast to fuel station chaos. Using reference for crystal white ELEXIO home charging setup. KEEP car colour, charging cable, and home context. TRANSFORM to peaceful early morning scene in suburban Australian driveway. Soft golden light, quiet residential street, serene atmosphere. Car charging overnight - effortless energy solution. Complete opposite mood to servo queue. Shot with 50mm lens, f/2.8 for peaceful depth. NO text, NO watermarks.",
+              "drift_notes": "Home charging reference becomes peaceful contrast to fuel anxiety"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 53.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Cramped boots. Noisy engines.",
+            "scene": "Generic ICE SUV with small boot struggling to fit family gear, engine noise visible as heat distortion, cramped interior space, frustrated family loading, representing the limitations of traditional family vehicles",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "boot-comparison",
+              "environment": "suburban-cramped",
+              "feature": "space-limitation",
+              "mood": "ICE-frustration"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME - match overall colour grade. Using reference for boot angle but TRANSFORM to show ICE vehicle limitations. Generic petrol SUV with obviously smaller boot space, struggling to fit family groceries and sports gear. Add visual hints of engine noise - slight heat distortion. Frustrated parent trying to make everything fit. Cramped, inefficient space. Harsh lighting emphasizes the struggle. Shot with 35mm lens, f/4. NO text, NO watermarks, NO Hyundai branding.",
+              "drift_notes": "ELEXIO boot reference becomes ICE limitation demonstration"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 47.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Space. Silence. Simplicity.",
+            "scene": "Crystal white ELEXIO with family happily loading massive boot, quiet electric operation, spacious interior visible, calm family interaction, warm afternoon light showing the complete upgrade to electric family motoring",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "detail-rear",
+              "environment": "suburban-satisfied",
+              "feature": "506l-boot",
+              "mood": "upgrade-resolution"
+            },
+            "nano_prompt": {
+              "model": "flash",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME - match crystal white car colour and suburban setting exactly. Using reference for ELEXIO boot space. KEEP boot dimensions and tailgate design exactly. TRANSFORM to show satisfied family easily loading massive 506L boot. Everything fits comfortably - groceries, sports gear, school bags. Happy family interaction, no stress. Warm afternoon light creates positive resolution. Silent electric operation evident through peaceful atmosphere. Complete upgrade from ICE limitations. Shot with 35mm lens, f/4. NO text, NO watermarks.",
+              "drift_notes": "Same boot reference becomes happy family upgrade resolution"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 82.5,
+                "role": "SEED",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          }
+        ],
+        "cta": "Compare to Your Current Car"
+      }
+    ],
+    "ad_count": 4,
+    "prompt_count": 16
+  },
+  "zara": {
+    "title": "The Scene Builder",
+    "drift": 60,
+    "color": "#f97316",
+    "ads": [
+      {
+        "ad_id": "PRA-AW-B3-ZARA-01",
+        "persona": "Pragmatist",
+        "stage": "Awareness",
+        "template": "B3",
+        "template_name": "By the Numbers",
+        "narrative_arc": "Hard stats prove ELEXIO's practical value through real suburban family scenarios",
+        "vehicle_colour": "crystal-white",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "546km. One charge.",
+            "scene": "Crystal white ELEXIO parked in typical suburban driveway next to weatherboard house, charging cable connected to home wall unit, harsh midday Australian sun, wheelie bins visible, neighbour's fence line, wide shot showing whole car and home context",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "side-view",
+              "environment": "suburban",
+              "feature": "home-charging",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for the crystal white ELEXIO and home charging setup, create a wide establishing shot of the car in a typical Australian suburban driveway. Keep the car's exact colour, charging cable position, and wall charger design. CHANGE the environment completely: weatherboard house with corrugated iron roof, red brick fence, wheelie bins on nature strip, eucalyptus tree casting shadows, neighbouring houses visible. Shot with 24mm lens, f/8 for sharp environmental detail, harsh midday sun creating realistic suburban lighting. NO text overlays, NO watermarks, NO perfect studio lighting.",
+              "drift_notes": "Transforms studio charging scene into authentic suburban Australian context"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 72.0,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "$15 per week to run.",
+            "scene": "Same crystal white ELEXIO at local Woolworths car park, boot open showing weekly grocery shop loaded inside, tired mum in activewear closing tailgate, shopping trolley nearby, other suburban families in background, afternoon overcast sky",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "rear-view",
+              "environment": "suburban",
+              "feature": "506l-boot",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference image for the ELEXIO's open boot and cargo space, create a scene at a suburban Woolworths car park. Keep the boot design and tailgate angle identical. CHANGE completely: tired mum in Bonds activewear and sneakers loading weekly groceries (Woolworths bags, bread, milk), shopping trolley beside car, other families with prams in background, concrete car park with yellow lines, overcast afternoon sky typical of Australian suburbs. Shot with 50mm lens, f/2.8 for shallow background blur. DO NOT copy composition but DO match palette and tone from previous frame.",
+              "drift_notes": "Moves from charging to practical family use, maintaining visual consistency"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 68.0,
+                "role": "SEED",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              },
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 52.0,
+                "role": "SUPPORTING",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "vs $65 petrol. Every week.",
+            "scene": "Crystal white ELEXIO at weekend junior footy match, parked among other family SUVs, dad in club tracksuit unloading muddy boots and drink bottles from boot, kids in team jerseys running past, suburban sports ground with goal posts visible",
+            "seed_image": "STILL-044-rear-three-quarter-dragon-red.png",
+            "seed_requirements": {
+              "angle": "rear-34",
+              "environment": "suburban",
+              "feature": "exterior-design",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for the ELEXIO's rear three-quarter angle but change colour to crystal white to match previous frames. Create weekend sports ground scene: dad in local footy club tracksuit unloading muddy boots and water bottles from boot, kids aged 8-12 in team jerseys running past, other parents and family cars parked on grass, suburban sporting oval with AFL goal posts, Saturday morning winter light. Shot with 35mm lens, f/4 for environmental context. Maintain the overcast Australian lighting established in frame 2.",
+              "drift_notes": "Extends to family lifestyle context, showing practical weekend use"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 80.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 76.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Smart families switch.",
+            "scene": "Crystal white ELEXIO back in home driveway at sunset, whole family visible through large front windows having dinner, car plugged in and charging, warm house lights glowing, neighbours' houses showing evening activity, peaceful suburban street scene",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-view",
+              "environment": "suburban",
+              "feature": "exterior-design",
+              "mood": "lifestyle"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for front-on car angle but change to crystal white and suburban setting. Create warm evening scene: ELEXIO in driveway charging, family of four visible through large front windows having dinner together, warm interior lights, neighbouring houses with lights on, suburban street with nature strips and established trees, golden hour sunset light. Shot with 85mm lens, f/1.8 for beautiful bokeh on background houses. This is the emotional payoff - maintain visual consistency with previous frames while showing family contentment.",
+              "drift_notes": "Completes the story arc with emotional satisfaction and charging convenience"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 55.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 51.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          }
+        ],
+        "cta": "Calculate Your Savings"
+      },
+      {
+        "ad_id": "CON-CO-B2-ZARA-02",
+        "persona": "Conscious Consumer",
+        "stage": "Consideration",
+        "template": "B2",
+        "template_name": "Dawn to Dusk",
+        "narrative_arc": "A complete day showing how ELEXIO seamlessly fits sustainable family life from sunrise to sunset",
+        "vehicle_colour": "pebble-blue",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "6:30am. Charged and ready.",
+            "scene": "Pebble blue ELEXIO in garage at dawn, soft morning light filtering through open garage door, charging cable being unplugged by dad in work clothes, coffee mug on workbench, kids' bikes and recycling bins visible, peaceful start to day",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "side-view",
+              "environment": "garage",
+              "feature": "home-charging",
+              "mood": "peaceful"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for home charging setup, create an early morning garage scene with pebble blue ELEXIO instead. Keep the charging cable and wall unit design identical. CHANGE to suburban garage environment: dad in business shirt unplugging car, coffee mug on cluttered workbench, kids' bikes hanging on wall, recycling bins with sorted waste, garden tools, soft dawn light filtering through open garage door. Shot with 35mm lens, f/2.8, warm morning light temperature 3200K. NO text overlays, NO studio lighting, authentic suburban garage details.",
+              "drift_notes": "Transforms studio charging into authentic morning family routine"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 53.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "School run. Zero emissions.",
+            "scene": "Pebble blue ELEXIO in school drop-off queue, two kids visible in backseat with school bags, mum at wheel wearing casual work clothes, other parents on foot with coffee cups, brick school building and established trees in background, controlled morning chaos",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "interior",
+              "environment": "school",
+              "feature": "spacious-interior",
+              "mood": "family-routine"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for interior spaciousness, create school drop-off scene showing mum at wheel of pebble blue ELEXIO, two kids aged 8-12 in backseat with school bags and lunch boxes, car in slow-moving school traffic. Through windows show: brick school building, other parents walking with coffee cups, established eucalyptus trees, school crossing supervisor. Shot through passenger side window, 50mm lens, f/2.8, maintain the warm morning light from previous frame.",
+              "drift_notes": "Shows family functionality while maintaining environmental consciousness theme"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Errands done. Air stays clean.",
+            "scene": "Pebble blue ELEXIO at farmers market car park, boot open with reusable shopping bags filled with local produce, mum chatting with other eco-conscious families, market stalls and trees in background, midday natural lighting, sustainable lifestyle choices evident",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "rear-view",
+              "environment": "market",
+              "feature": "506l-boot",
+              "mood": "sustainable"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for open boot space, create farmers market scene with pebble blue ELEXIO parked near market stalls. Keep boot design identical. CHANGE environment: reusable shopping bags filled with fresh vegetables, locally-made products, mum in sustainable fashion (linen shirt, canvas shoes) organizing purchases, other families with kids selecting organic produce, market umbrellas and trees providing natural shade, midday lighting. Shot with 24mm lens, f/5.6 for environmental detail.",
+              "drift_notes": "Emphasizes sustainable lifestyle alignment with conscious consumer values"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 57.5,
+                "role": "SEED",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Home again. Tomorrow too.",
+            "scene": "Pebble blue ELEXIO back in driveway at golden hour, plugged in for overnight charging, family visible through kitchen windows preparing dinner with fresh market produce, solar panels on roof, established garden with native plants, circular sustainable living completed",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-view",
+              "environment": "sustainable-home",
+              "feature": "exterior-design",
+              "mood": "fulfilled"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for front car angle but change to pebble blue ELEXIO in sustainable family home setting. Create golden hour scene: car in driveway plugged into wall charger, family visible through large kitchen windows preparing dinner with farmers market produce, solar panels on house roof, established native garden with water tanks, neighbouring eco-homes. Shot with 85mm lens, f/2.0, warm golden hour light at 2800K. This completes the circular story of sustainable daily living.",
+              "drift_notes": "Closes the loop on sustainable living cycle, showing environmental harmony"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 55.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 51.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          }
+        ],
+        "cta": "Explore Sustainability"
+      },
+      {
+        "ad_id": "STA-AW-B1-ZARA-03",
+        "persona": "Status Seeker",
+        "stage": "Awareness",
+        "template": "B1",
+        "template_name": "Objection Killer",
+        "narrative_arc": "Dispels the myth that EVs can't deliver premium luxury and cutting-edge tech status",
+        "vehicle_colour": "dragon-red",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "Still think EVs lack luxury?",
+            "scene": "Dragon red ELEXIO exterior in architectural urban setting, dramatic evening lighting casting sculptural shadows across the car's premium design lines, modern glass building background, sophisticated city environment suggesting premium positioning",
+            "seed_image": "STILL-033-rear-three-quarter-dragon-red-.png",
+            "seed_requirements": {
+              "angle": "rear-34",
+              "environment": "urban-premium",
+              "feature": "exterior-design",
+              "mood": "dramatic"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for the dragon red ELEXIO's rear three-quarter angle and premium finish, create a sophisticated urban evening scene. Keep the car's exact colour, design lines, and proportions. CHANGE environment completely: position car in front of contemporary glass office building, architectural lighting creating dramatic shadows across vehicle surface, premium urban setting with clean concrete and steel elements, other luxury vehicles partially visible in background. Shot with 85mm lens, f/2.8, dramatic key lighting at 4000K with architectural accent lights. NO text overlays, NO watermarks, focus on sculptural premium presence.",
+              "drift_notes": "Elevates from studio to premium urban architectural context"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 80.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 76.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "27-inch 4K panoramic display.",
+            "scene": "Interior detail of dragon red ELEXIO showing the massive panoramic touchscreen displaying premium interface, premium leather seats visible, ambient lighting highlighting luxury materials, high-end tech integration evident, sophisticated cabin environment",
+            "seed_image": "STILL-036-interior-full-dashboard-widesc.png",
+            "seed_requirements": {
+              "angle": "interior-wide",
+              "environment": "premium-cabin",
+              "feature": "27-inch-screen",
+              "mood": "tech-luxury"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for the full dashboard and 27-inch display, create an intimate interior scene highlighting the premium technology. Keep the screen size and interface design identical. CHANGE lighting and context: evening ambient cabin lighting in sophisticated purple and blue tones, premium leather seats with diamond quilting visible, brushed metal accents catching light, high-end materials throughout. Shot with 24mm lens, f/1.8, cinematic interior lighting setup. Focus on the luxury tech integration that matches the urban premium mood from frame 1.",
+              "drift_notes": "Proves luxury tech credentials with dramatic interior presentation"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 57.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              },
+              {
+                "asset_id": "STILL-039",
+                "filename": "STILL-039-interior-widescreen-display-cl.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-039-interior-widescreen-display-cl.png",
+                "score": 57.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Premium materials throughout.",
+            "scene": "Close detail of dragon red ELEXIO interior showing premium leather seats with intricate stitching, brushed metal accents, high-quality surface textures, sophisticated craftsmanship evident in every detail, luxury car interior worthy of status positioning",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "interior-detail",
+              "environment": "luxury-cabin",
+              "feature": "premium-materials",
+              "mood": "sophisticated"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for front seat design and materials, create an artistic close-up showcasing premium craftsmanship. Keep seat design and proportions identical. CHANGE to luxury detail focus: dramatic lighting highlighting leather grain texture, precision stitching patterns, brushed metal trim catching light, premium surface treatments, sophisticated colour coordination. Shot with 100mm macro lens, f/2.8, directional studio lighting emphasizing material quality. This builds the luxury evidence stack from previous frame's tech focus.",
+              "drift_notes": "Provides tactile luxury proof through materials and craftsmanship detail"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Arrive in style.",
+            "scene": "Dragon red ELEXIO arriving at upscale restaurant valet area, well-dressed couple emerging from vehicle, premium urban nightlife setting, other luxury cars visible, sophisticated evening social scene demonstrating the car's status symbol credibility",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-view",
+              "environment": "premium-social",
+              "feature": "exterior-design",
+              "mood": "aspirational"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for dragon red ELEXIO front angle, create an upscale evening arrival scene. Keep car design and colour identical. CHANGE to premium social context: well-dressed couple (him in tailored jacket, her in sophisticated dress) stepping out at high-end restaurant entrance, valet attendant approaching, other luxury vehicles (BMW, Mercedes) in background, warm restaurant lighting, urban premium nightlife setting. Shot with 50mm lens, f/2.0, cinematic evening lighting. This is the emotional payoff showing successful social positioning.",
+              "drift_notes": "Completes status narrative with aspirational social proof scenario"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 62.0,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 55.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              }
+            ]
+          }
+        ],
+        "cta": "Book VIP Test Drive"
+      },
+      {
+        "ad_id": "ICE-ED-B4-ZARA-04",
+        "persona": "ICE Converter",
+        "stage": "Education",
+        "template": "B4",
+        "template_name": "The Upgrade",
+        "narrative_arc": "Shows familiar ICE pain points contrasted with ELEXIO solutions for traditional SUV families",
+        "vehicle_colour": "crystal-white",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "Petrol queues again?",
+            "scene": "Crystal white ELEXIO parked at home driveway while across the street a traditional SUV family waits in long petrol station queue visible in background, dad checking fuel prices on price board, contrast between convenience and hassle, suburban morning scene",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "side-view",
+              "environment": "suburban",
+              "feature": "home-charging",
+              "mood": "convenient"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for crystal white ELEXIO home charging setup, create a comparison scene showing convenience vs inconvenience. Keep the car colour and charging equipment identical. CHANGE environment: ELEXIO in neat suburban driveway plugged into home charger, while background shows busy petrol station across the street with queue of cars including frustrated dad checking fuel prices, morning suburban lighting showing the contrast between home convenience and petrol station hassle. Shot with 35mm lens, f/4 for background detail, natural morning light. Focus on the lifestyle upgrade comparison.",
+              "drift_notes": "Establishes the pain point ICE families know while showing the EV solution"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 61.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "Boot space that works.",
+            "scene": "Crystal white ELEXIO with boot open showing family's weekend sports gear easily loaded, flat floor with three kids' footy bags, esky, fold-up chairs all fitting comfortably, mum organizing everything with ease, suburban Saturday morning sports preparation",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "rear-view",
+              "environment": "suburban",
+              "feature": "506l-boot",
+              "mood": "practical"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for boot space and tailgate design, create a weekend sports preparation scene. Keep boot dimensions and flat floor design identical. CHANGE to family functionality context: mum in tracksuit loading three kids' footy bags, large esky, fold-up chairs, drink bottles, everything fitting easily thanks to 506L space and flat floor, suburban driveway with other family cars struggling with smaller boots visible in background. Shot with 24mm lens, f/5.6, Saturday morning natural light maintaining previous frame's suburban feel.",
+              "drift_notes": "Demonstrates practical family superiority over traditional ICE SUVs"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 68.0,
+                "role": "SEED",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              },
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 52.0,
+                "role": "SUPPORTING",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Room for the whole crew.",
+            "scene": "Interior of crystal white ELEXIO showing spacious backseat with three kids aged 6-14 sitting comfortably across the back seat, youngest with tablet, middle child reading, teenager relaxed, demonstrating the flat floor space advantage for growing families",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "interior",
+              "environment": "family-car",
+              "feature": "spacious-interior",
+              "mood": "comfortable"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for interior spaciousness, create a scene showing three kids aged 6-14 comfortable in the backseat during family drive. Keep interior proportions and seat design identical. CHANGE to show family functionality: youngest with iPad, middle child reading book, teenager with legs stretched out thanks to flat floor, all looking comfortable not cramped, view through driver seat showing suburban street through windscreen. Shot with 50mm lens, f/2.8, natural interior lighting. Proves space advantage for ICE families considering the switch.",
+              "drift_notes": "Shows space superiority that ICE families with multiple children will appreciate"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "The complete upgrade.",
+            "scene": "Crystal white ELEXIO in suburban driveway at evening, whole family visible through house windows looking happy and relaxed, car plugged in charging, traditional ICE family next door still dealing with maintenance - one neighbour checking oil, another washing car, contrast showing simplified EV life",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-view",
+              "environment": "suburban-comparison",
+              "feature": "exterior-design",
+              "mood": "satisfied"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME in this slideshow. Match car colour and colour grade exactly. Using reference for front car angle but change to crystal white ELEXIO in evening suburban comparison scene. Create story resolution: ELEXIO family relaxed inside house visible through windows, car simply plugged in charging, while next door neighbours still dealing with ICE maintenance - one checking under bonnet, another at car wash, tools scattered around. Evening suburban lighting, established trees, typical family driveways. Shot with 85mm lens, f/2.2, warm house lights contrasting with maintenance hassles. Shows the complete lifestyle upgrade from ICE complexity.",
+              "drift_notes": "Completes upgrade story showing simplified EV life vs ongoing ICE maintenance"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-033",
+                "filename": "STILL-033-rear-three-quarter-dragon-red-.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-033-rear-three-quarter-dragon-red-.png",
+                "score": 55.5,
+                "role": "SEED",
+                "angle": "rear-34",
+                "environment": "studio-dark",
+                "feature": "exterior-design"
+              },
+              {
+                "asset_id": "STILL-044",
+                "filename": "STILL-044-rear-three-quarter-dragon-red.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-044-rear-three-quarter-dragon-red.png",
+                "score": 51.5,
+                "role": "SUPPORTING",
+                "angle": "rear-34",
+                "environment": "outdoor-day",
+                "feature": "exterior-design"
+              }
+            ]
+          }
+        ],
+        "cta": "Compare to Your SUV"
+      }
+    ],
+    "ad_count": 4,
+    "prompt_count": 16
+  },
+  "max": {
+    "title": "The Provocateur",
+    "drift": 90,
+    "color": "#ef4444",
+    "ads": [
+      {
+        "ad_id": "PRA-AW-B3-MAX-01",
+        "persona": "Pragmatist",
+        "stage": "Awareness",
+        "template": "B3",
+        "template_name": "By the Numbers",
+        "narrative_arc": "Cold hard numbers prove the ELEXIO delivers on the metrics that matter most to budget-conscious families",
+        "vehicle_colour": "crystal-white",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "546km. One charge.",
+            "scene": "Extreme close-up macro shot of home charging port connected to crystal white ELEXIO in cluttered Australian garage. 85mm lens, shallow depth of field. Wheelie bins, garden tools, kids bikes visible in soft blur. Morning light streaming through garage door. Focus razor sharp on glowing charging indicator LED.",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "detail-charging",
+              "environment": "suburban-garage",
+              "feature": "home-charging",
+              "mood": "technical"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for home charging setup, create extreme macro detail shot of charging port connection. KEEP: crystal white car color, home wall charger unit design, charging cable. CHANGE: Push into macro territory - 85mm lens at f/1.4, charging indicator LED glowing, Australian suburban garage context with wheelie bins, Bunnings tools, kids soccer boots scattered. Morning light cutting through garage door opening. NO text, NO graphics overlays, NO pristine studio lighting. Authentic suburban clutter.",
+              "drift_notes": "Macro detail approach transforms reference into intimate technical proof point"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 53.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 48.0,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "$15 per week to run.",
+            "scene": "Aerial drone shot looking down at ELEXIO parked in Coles car park. Shopping trolleys, families loading groceries, typical suburban retail strip. Midday harsh Australian sun. 24mm wide lens capturing car among everyday chaos of weekend grocery run. Real people, not models.",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "aerial-context",
+              "environment": "suburban-retail",
+              "feature": "practical-use",
+              "mood": "everyday"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME in this slideshow. Match crystal white car colour and authentic suburban tone exactly. Using reference for boot space concept, create aerial drone shot at Coles shopping centre car park. KEEP: practical family context. CHANGE: 24mm wide aerial view, car parked among shopping trolleys, families with kids, weekend grocery chaos. Harsh midday sun, real suburban retail strip. Mum loading Woolworths bags, dad wrestling toddler, sibling argument in background. NO perfect staging, NO empty car parks.",
+              "drift_notes": "Aerial perspective shows car in real family context, reinforcing running cost benefits"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "vs $68 for petrol.",
+            "scene": "Split screen composition: left side shows family at BP servo, dad grimacing at fuel price display. Right side shows same family at home, ELEXIO plugged in peacefully in driveway. Golden hour lighting. Shot through kitchen window showing contrast between public fuel anxiety and private charging confidence.",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "comparison-context",
+              "environment": "split-suburban",
+              "feature": "charging-vs-fuel",
+              "mood": "contrast"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME. Match crystal white car colour and family exactly. Using reference for car positioning, create split screen comparison shot. LEFT: Same dad at BP fuel pump, price display showing $2.10+/L, kids restless in back seat, mum checking phone anxiously. RIGHT: Same crystal white ELEXIO in home driveway, charging cable connected, family visible through lit kitchen window having dinner peacefully. Golden hour lighting. Shot from across suburban street. NO text overlays, NO artificial split lines.",
+              "drift_notes": "Cinematic split screen shows emotional contrast between fuel anxiety and EV confidence"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Your calculator will thank you.",
+            "scene": "Wide shot of Australian brick veneer home at dusk. ELEXIO in driveway, house lights warm and welcoming. Dad visible through window helping kids with homework at kitchen table. Charging cable snaking from garage. Neighbours walking dogs, sprinklers running on lawns. Peaceful suburban evening establishing shot.",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "wide-lifestyle",
+              "environment": "suburban-evening",
+              "feature": "home-integration",
+              "mood": "resolved"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME. Match crystal white car colour and family members exactly. Using reference for home charging context, create wide establishing shot of brick veneer home at dusk. KEEP: home charging setup. CHANGE: Pull back to 35mm lens, show whole suburban context. Same family visible through kitchen window, dad helping with homework, mum making dinner. Neighbours with dogs, sprinkler systems, Hills Hoist clothesline. Warm house lights, street lights coming on. NO perfect suburbs, YES lived-in Australian suburban reality.",
+              "drift_notes": "Wide lifestyle shot resolves the numbers story with emotional family contentment"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          }
+        ],
+        "cta": "Calculate Your Savings"
+      },
+      {
+        "ad_id": "CON-CO-B2-MAX-02",
+        "persona": "Conscious Consumer",
+        "stage": "Consideration",
+        "template": "B2",
+        "template_name": "Dawn to Dusk",
+        "narrative_arc": "A single day shows how choosing electric seamlessly integrates with conscious family values from sunrise to sunset",
+        "vehicle_colour": "dragon-red",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "6:30am. Silent start.",
+            "scene": "Pre-dawn shot of dragon red ELEXIO backing silently out of driveway. Neighbours houses still dark, mist in air. Car headlights cutting through morning fog. Shot from low angle across suburban street. 50mm lens. Peaceful, not disturbing sleeping neighbourhood with engine noise.",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-suburban",
+              "environment": "suburban-dawn",
+              "feature": "silent-operation",
+              "mood": "peaceful"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for dragon red ELEXIO, create pre-dawn suburban scene. KEEP: dragon red colour, front design language. CHANGE: 5:30am lighting with morning mist, car backing out of driveway silently, headlights cutting through fog. Low angle across empty suburban street, neighbours houses dark, wheelie bins ready for collection. 50mm lens, f/2.8. Peaceful not disruptive - no engine noise visual cues. Australian suburb with gum trees, weatherboard houses. NO studio lighting, NO pristine streets.",
+              "drift_notes": "Pre-dawn atmosphere emphasizes silent electric operation benefit"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "School run. Zero emissions.",
+            "scene": "ELEXIO in school drop-off zone chaos. Kids with backpacks walking past, other parents in queue, teachers directing traffic. Mum visible through windscreen waving goodbye. Dragon red ELEXIO among mix of other vehicles. Morning golden light. Shot from pedestrian crossing perspective showing car in community context.",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "side-contextual",
+              "environment": "school-zone",
+              "feature": "family-practical",
+              "mood": "community"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME in this slideshow. Match dragon red car colour and family exactly. Using reference for interior spaciousness, create school drop-off zone scene. KEEP: spacious cabin feeling. CHANGE: Exterior shot showing dragon red ELEXIO among school chaos - kids with backpacks, other mums in pyjamas doing coffee run, teachers in hi-vis directing traffic. Same mum from previous frame visible through windscreen. 35mm lens from pedestrian crossing angle. Australian primary school with demountable buildings, eucalyptus trees. Morning golden light. NO staged perfection.",
+              "drift_notes": "Community context shows electric choice within real family routines"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Afternoon sport. Clean conscience.",
+            "scene": "ELEXIO parked at muddy local footy ground. Boot open, muddy boots and sports gear being loaded. Kids in grass-stained uniforms, parents with camp chairs and thermoses. Australian grassroots sport environment. Late afternoon light, shadows getting longer. Shot from sideline showing car integrated into weekend sport culture.",
+            "seed_image": "STILL-041-boot-cargo-space-open-tailgate.png",
+            "seed_requirements": {
+              "angle": "rear-lifestyle",
+              "environment": "sports-ground",
+              "feature": "506l-boot",
+              "mood": "active-family"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME. Match dragon red car colour and same family members exactly. Using reference for boot space, create local footy ground scene. KEEP: 506L boot capacity demonstration. CHANGE: Muddy suburban sports ground, kids in grass-stained Auskick gear, same mum from previous frames loading muddy boots, camp chairs, esky. Other families around, goal posts visible, patchy grass field. Late afternoon shadows getting longer. 35mm lens from sideline perspective. Real Australian grassroots sport, not elite facilities. NO pristine equipment, YES lived-in family sport chaos.",
+              "drift_notes": "Sports context maintains family continuity while showing practical capacity"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-041",
+                "filename": "STILL-041-boot-cargo-space-open-tailgate.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-041-boot-cargo-space-open-tailgate.png",
+                "score": 57.5,
+                "role": "SEED",
+                "angle": "detail-rear",
+                "environment": "studio",
+                "feature": "506l-boot, cargo"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Evening charge. Tomorrow ready.",
+            "scene": "ELEXIO plugged in at home, dusk settling. Same family visible through lit kitchen window, kids doing homework, mum cooking dinner. Car positioned to show charging cable connection. Warm house lights contrasting with deepening blue sky. Shot from neighbour's perspective across suburban fence line. Peaceful end to conscious day.",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "side-evening",
+              "environment": "suburban-dusk",
+              "feature": "home-charging",
+              "mood": "resolved"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME. Match dragon red car colour and exact same family from previous frames. Using reference for charging setup, create dusk resolution scene. KEEP: home charging concept. CHANGE: Dragon red car, same family visible through warm kitchen window lights, same kids now doing homework, same mum cooking dinner. Charging cable connected from garage. Shot over suburban fence from neighbour's yard, Hills Hoist in foreground. Blue hour lighting, house lights warm yellow. 50mm lens, f/2.8. Australian suburban evening with TV glow, sprinkler running on lawn. NO different family members.",
+              "drift_notes": "Completes day cycle with same characters, emphasizing routine integration"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-051",
+                "filename": "STILL-051-home-wall-charger-crystal-whit.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-051-home-wall-charger-crystal-whit.png",
+                "score": 53.5,
+                "role": "SEED",
+                "angle": "side-profile",
+                "environment": "suburban",
+                "feature": "home-charging, wall-box"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          }
+        ],
+        "cta": "Book a Test Drive"
+      },
+      {
+        "ad_id": "STA-AW-B4-MAX-03",
+        "persona": "Status Seeker",
+        "stage": "Awareness",
+        "template": "B4",
+        "template_name": "The Upgrade",
+        "narrative_arc": "From cramped analog automotive past to spacious digital automotive future - the upgrade that makes a statement",
+        "vehicle_colour": "pebble-blue",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "Your dashboard. Still living in 2018?",
+            "scene": "Interior shot of generic petrol SUV dashboard - small screen, physical buttons, cluttered analog layout. Harsh midday light through windscreen. Dad's coffee-stained hands on old-school steering wheel. Kids toys wedged in cup holders. Shot with 35mm lens showing cramped, outdated cockpit feeling.",
+            "seed_image": "STILL-034-interior-steering-wheel-close.png",
+            "seed_requirements": {
+              "angle": "interior-contrast",
+              "environment": "dated-cockpit",
+              "feature": "old-dashboard",
+              "mood": "outdated"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for interior angle and composition, create outdated petrol SUV dashboard. KEEP: interior camera angle, driver perspective. CHANGE: Show cramped old-tech dashboard - tiny infotainment screen, physical CD player, multiple small buttons, analog gauges. Coffee stains on plastic, kids toys in cup holders, phone mount with cables. Harsh midday light through windscreen. Dad's tired hands on dated steering wheel. 35mm lens showing cluttered, behind-the-times feeling. NO premium materials, YES budget petrol SUV reality. NO Hyundai branding.",
+              "drift_notes": "Establishes dated automotive experience as the problem to be solved"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 47.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 47.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "27-inch 4K. Welcome to now.",
+            "scene": "Interior hero shot of ELEXIO's 27-inch panoramic display dominating the dashboard. Crystal clear screen showing maps, ambient lighting, premium materials. Same dad's hands on steering wheel but now premium leather. Completely transformed cockpit experience. Shot with 50mm lens emphasizing the massive screen upgrade.",
+            "seed_image": "STILL-036-interior-full-dashboard-widesc.png",
+            "seed_requirements": {
+              "angle": "interior-premium",
+              "environment": "cockpit-future",
+              "feature": "27-inch-screen",
+              "mood": "upgraded"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME in this slideshow. Match same dad's hands and lighting direction exactly. Using reference for 27-inch display, create dramatic upgrade reveal. KEEP: panoramic screen dominance, premium dashboard layout. CHANGE: Same person from previous frame now in ELEXIO cockpit, hands on premium leather steering wheel. Massive 4K display showing navigation, ambient mood lighting, clean uncluttered design. 50mm lens emphasizing screen scale. NO coffee stains, NO cluttered buttons, YES future-forward cockpit. Same lighting angle but premium materials reflecting light beautifully.",
+              "drift_notes": "Dramatic before/after with same person showing the upgrade transformation"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 57.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              },
+              {
+                "asset_id": "STILL-039",
+                "filename": "STILL-039-interior-widescreen-display-cl.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-039-interior-widescreen-display-cl.png",
+                "score": 57.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Back seat. Still playing sardines?",
+            "scene": "Cramped petrol SUV back seat, three kids squashed together, uncomfortable. Middle child sitting on transmission hump, legs awkwardly positioned. Shot from front seat showing tight quarters, fabric seats with stains. Afternoon light through small windows. Kids looking frustrated and cramped.",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "rear-seat-cramped",
+              "environment": "tight-quarters",
+              "feature": "space-constraint",
+              "mood": "uncomfortable"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME. Using reference for interior space perspective, create cramped petrol SUV back seat scene. KEEP: interior side view angle. CHANGE: Three kids squashed in back seat, middle child straddling transmission tunnel hump, legs awkwardly positioned. Stained fabric seats, small windows, cluttered door pockets. Same kids from hypothetical family looking uncomfortable and arguing over space. Shot from front seat looking back, 35mm lens showing tight quarters. NO luxury, YES budget family SUV reality with wear and tear.",
+              "drift_notes": "Establishes space constraint problem before ELEXIO flat floor solution"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 47.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Flat floor. Three kids, zero fights.",
+            "scene": "ELEXIO back seat showing three kids comfortable with flat floor space. Same kids from previous frame now spread out, relaxed, playing games together instead of fighting. Pebble blue interior accents, premium materials, larger windows creating airy feel. Shot from same angle showing the space transformation.",
+            "seed_image": "STILL-037-interior-front-seats-side-view.png",
+            "seed_requirements": {
+              "angle": "rear-seat-spacious",
+              "environment": "airy-premium",
+              "feature": "flat-floor-space",
+              "mood": "relaxed"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME. Match exact same three kids from previous frame but now relaxed and happy. Using reference for spacious interior, create ELEXIO back seat upgrade scene. KEEP: premium spacious interior layout. CHANGE: Same three kids now comfortable in ELEXIO back seat, flat floor allowing natural seating positions, playing tablet games together instead of fighting. Pebble blue interior accents, premium materials, panoramic sunroof creating airy feeling. Same camera angle as previous frame but showing transformation to comfort. NO transmission hump, YES flat EV floor space advantage.",
+              "drift_notes": "Completes upgrade story with same kids experiencing space transformation"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-037",
+                "filename": "STILL-037-interior-front-seats-side-view.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-037-interior-front-seats-side-view.png",
+                "score": 47.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "front-seats, space"
+              },
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              }
+            ]
+          }
+        ],
+        "cta": "Experience the Upgrade"
+      },
+      {
+        "ad_id": "ICE-ED-B1-MAX-04",
+        "persona": "ICE Converter",
+        "stage": "Education",
+        "template": "B1",
+        "template_name": "Objection Killer",
+        "narrative_arc": "Every electric vehicle myth gets systematically demolished by real-world ELEXIO proof points",
+        "vehicle_colour": "dragon-red",
+        "keyframes": [
+          {
+            "kf": 1,
+            "headline": "EVs can't handle family road trips?",
+            "scene": "Skeptical dad looking at ELEXIO in driveway, arms crossed, kids loading luggage in background. Wife pointing at phone showing route planning. Questioning body language, uncertainty in face. Shot from across suburban street with 85mm lens, natural morning light showing doubt and hesitation about electric road trip capability.",
+            "seed_image": "STILL-044-rear-three-quarter-dragon-red.png",
+            "seed_requirements": {
+              "angle": "three-quarter-suburban",
+              "environment": "suburban-doubt",
+              "feature": "family-loading",
+              "mood": "skeptical"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Using image 1 as reference for dragon red ELEXIO positioning, create suburban doubt scene. KEEP: dragon red colour, rear three-quarter angle. CHANGE: Dad with arms crossed looking skeptical at car in driveway, wife showing phone with trip planning, kids loading suitcases and road trip snacks. Australian brick veneer home, wheelie bins, Hills Hoist. 85mm lens from across street, natural morning light. Dad's face showing uncertainty about EV road trip capability. NO confident poses, YES genuine family dynamic with EV hesitation. Wife clearly more convinced than husband.",
+              "drift_notes": "Establishes genuine skepticism about EV road trip capability from ICE driver perspective"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 2,
+            "headline": "546km range. Brisbane to Sydney.",
+            "scene": "Same ELEXIO on Pacific Highway approaching Sydney Harbour Bridge. Family inside looking comfortable, kids asleep in back seat. Dashboard showing 15% battery remaining but destination almost reached. Golden afternoon light. Shot from highway overpass showing car completing major interstate journey successfully.",
+            "seed_image": "STILL-035-front-dead-on-dragon-red-urban.png",
+            "seed_requirements": {
+              "angle": "front-journey",
+              "environment": "highway-achievement",
+              "feature": "range-proof",
+              "mood": "accomplishment"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 2 is the PREVIOUS FRAME in this slideshow. Match dragon red car colour and exact same family members from previous frame. Using reference for front positioning, create Pacific Highway approach to Sydney. KEEP: dragon red colour, front angle. CHANGE: Same family now on major highway, Sydney Harbour Bridge visible ahead, same kids asleep in back seat, same dad driving but now confident, same wife navigating. Shot from highway overpass, 70mm lens. Late afternoon golden light. Car showing journey wear but performing perfectly. NO different family, YES same skeptical dad now convinced by real-world range performance.",
+              "drift_notes": "Proves range capability with same family completing major interstate journey"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 3,
+            "headline": "Charging takes forever though, right?",
+            "scene": "ELEXIO at Chargefox rapid charging station, family getting coffee at connected cafe. Dad checking phone showing charging progress - 38 minutes to 80%. Kids playing on nearby playground. Other families also charging, normal part of travel routine. Shot showing charging as convenient break, not burden.",
+            "seed_image": "STILL-051-home-wall-charger-crystal-whit.png",
+            "seed_requirements": {
+              "angle": "charging-lifestyle",
+              "environment": "travel-stop",
+              "feature": "fast-charging",
+              "mood": "convenient"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 3 is the PREVIOUS FRAME. Match dragon red car colour and exact same family from previous frames. Using reference for charging setup, create highway service centre charging scene. KEEP: charging infrastructure concept. CHANGE: Dragon red ELEXIO at Chargefox station, same dad from previous frames checking phone showing '38 min to 80%', same wife getting coffee, same kids playing on service centre playground. Other EV families also charging normally. 50mm lens showing charging integrated into travel break routine. NO anxiety, YES charging as convenient family stop. Highway service centre with food court, clean facilities.",
+              "drift_notes": "Demonstrates fast charging as convenient travel routine, not inconvenience"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          },
+          {
+            "kf": 4,
+            "headline": "Your doubts. Officially obsolete.",
+            "scene": "Same family arriving home, dad now enthusiastically showing ELEXIO features to male neighbour over fence. Kids excitedly telling their friends about the trip. Wife unloading successfully. Dad transformed from skeptic to advocate, pointing at car with pride. Evening suburban scene showing conversion complete.",
+            "seed_image": "STILL-044-rear-three-quarter-dragon-red.png",
+            "seed_requirements": {
+              "angle": "three-quarter-advocate",
+              "environment": "suburban-pride",
+              "feature": "conversion-complete",
+              "mood": "advocacy"
+            },
+            "nano_prompt": {
+              "model": "pro",
+              "aspect_ratio": "9:16",
+              "prompt": "Image 4 is the PREVIOUS FRAME. Match dragon red car colour and exact same family members from all previous frames. Using reference for three-quarter positioning, create suburban arrival scene. KEEP: dragon red colour, rear three-quarter angle. CHANGE: Same dad from Frame 1 now enthusiastically showing car to male neighbour over fence, complete transformation from skeptic to advocate. Same wife unloading successfully, same kids telling friends about road trip. Evening suburban setting, same brick veneer home. 85mm lens from same angle as Frame 1 but now showing confident advocacy. NO different people, YES same skeptical dad now converted to EV champion.",
+              "drift_notes": "Completes conversion arc with same skeptic now advocating to other ICE drivers"
+            },
+            "seed_selection": [
+              {
+                "asset_id": "STILL-034",
+                "filename": "STILL-034-interior-steering-wheel-close.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-034-interior-steering-wheel-close.png",
+                "score": 37.5,
+                "role": "SEED",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "steering-wheel, dashboard"
+              },
+              {
+                "asset_id": "STILL-036",
+                "filename": "STILL-036-interior-full-dashboard-widesc.png",
+                "path": "/Users/joseph/Desktop/Kapathy/raw/photoshoot/assets/STILL-036-interior-full-dashboard-widesc.png",
+                "score": 37.5,
+                "role": "SUPPORTING",
+                "angle": "detail-interior",
+                "environment": "studio",
+                "feature": "dashboard, 27-inch-screen"
+              }
+            ]
+          }
+        ],
+        "cta": "Book a Test Drive"
+      }
+    ],
+    "ad_count": 4,
+    "prompt_count": 16
+  }
+}
